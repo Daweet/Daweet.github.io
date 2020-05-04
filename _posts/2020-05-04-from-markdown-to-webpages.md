@@ -143,5 +143,4 @@ This results the following famous Einstien's equation
 
 ### More Info
 
-More information on github is provided on the link below 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+More information on github is provided on the link, see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
