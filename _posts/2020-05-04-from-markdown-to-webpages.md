@@ -65,7 +65,7 @@ You can also combine emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
-### Lists, ordered and unordered
+### Lists: ordered and unordered
 
 To create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.
 ```
@@ -73,38 +73,66 @@ Items to purchase put in ordered list
 1. Apple
 2. Banana
 3. Cantaloupe
-4. ..
+4. ...
 ```
 This yields the following orderd list 
 1. Apple
 2. Banana
 3. Cantaloupe
 4. ...
-If you want to create unordered list, you type either _, +, or * and space followed by what you want to write
+
+If you want to create unordered list, you use either _, +, or * and space followed by what you want to write
 ```
 Unordered can be written as 
 - Apple
-  + 1 pound
-- Banana
-  * 2 pound
-- Cantaloupe
+  - 1 pound
++ Banana
+  - 2 pound
+* Cantaloupe
 ```
 
 Resulting the following unorderdd list along with thier sublistsz
 - Apple
-  + 1 pound
-- Banana
-  * 2 pound
-- Cantaloupe
+  - 1 pound
++ Banana
+  - 2 pound
+* Cantaloupe
 
+### Linking url and image
+Link will be writen by name of the link written on a suqare bracket that the user will click on, i.e [name], coupled with the url in a bracket(url)
+```
+[Markdown](https://www.markdownguide.org). 
+[Jekyll](https://jekyllrb.com/). 
+[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[Daweet](https://github.com/Daweet/Daweet.github.io/settings)
 
-**Bold** and _Italic_ and `Code` text
+and ![Image](src)
+```
+[Markdown](https://www.markdownguide.org). 
+[Jekyll](https://jekyllrb.com/). 
+[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[Daweet](https://github.com/Daweet/Daweet.github.io/settings)
 
-[Link](url) and ![Image](src)
+Similarly you can attach an image using the following syntax
+```
+![Image](src)
+```
+### Including code lines
+
+If we choose python as our example codes can be written in Markdown as foolows
+```python
+"print('Welcome to my page, World!)"
 ```
 
+### Equations in markdown
+Following footsteps of latex syntax, equations in markdown also are written within two dollar signs
+```
+$E = mc^2$
+```
+This results the following famous Einstien's equation
+$E = mc^2$
+
+### More Info
+
+More information on github is provided on the link below 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Daweet/Daweet.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
