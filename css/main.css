@@ -19,6 +19,7 @@ a {
     text-decoration-color: blue;
 }
 a:hover {
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
     text-decoration: underline;
 }
 h1 {
