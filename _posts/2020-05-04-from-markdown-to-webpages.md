@@ -18,7 +18,7 @@ Here is a definition provided in the website of [Markdown](https://www.markdowng
 > add two asterisks before and after it (e.g., **this text is bold**). It may take a while to get used to seeing Markdown 
 > syntax in your text, especially if you’re accustomed to WYSIWYG applications.
 
-I think Markdown is intuitive, a lightweight and easy-to-use syntax for styling your writing. You can write simple blogs, equations, codes with it. 
+I think Markdown is intuitive, a lightweight and easy-to-use syntax for styling your writing. You can write simple blogs, equations [with modifications], codes with it. 
 You can also share other sites and add images to your blogs and/or files. I suggest to visit the website [Markdown](https://www.markdownguide.org) 
 for further exploration.
 
@@ -133,13 +133,13 @@ If we choose python as our example codes can be written in Markdown as foolows
 ```
 
 ### Equations in markdown
-Following footsteps of latex syntax, equations in markdown also are written within two dollar signs
+Following footsteps of latex syntax, equations in Jupyternotebook markdown also are written within two dollar signs, but if it is not in Jupyter notebook it will have difficulty displaying equations. But a trick is provided in [Alexander Rodin](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b), where the equation is rendered as image. As I plan to use equations moreoften, I think I will have to search for alternative solution, that will be a blog in itself.
 ```
-$E = mc^2$
+<img src="https://render.githubusercontent.com/render/math?math=E = mc^2">
 ```
 This results the following famous Einstien's equation  
 
-$E = mc^2$
+<img src="https://render.githubusercontent.com/render/math?math=E = mc^2">
 
 ### More Info
 
