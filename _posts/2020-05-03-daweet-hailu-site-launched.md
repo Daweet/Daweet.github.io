@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Daweet Hailu, Launches Site"
+title: "Dawit Hailu, Launches Site"
 date: 2020-05-03
 ---
 
