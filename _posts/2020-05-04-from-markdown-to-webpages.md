@@ -101,17 +101,25 @@ Resulting the following unorderdd list along with thier sublistsz
 ### Linking url and image
 Link will be writen by name of the link written on a suqare bracket that the user will click on, i.e [name], coupled with the url in a bracket(url)
 ```
-[Markdown](https://www.markdownguide.org). 
-[Jekyll](https://jekyllrb.com/). 
-[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-[Daweet](https://github.com/Daweet/Daweet.github.io/settings)
+[Markdown](https://www.markdownguide.org).  
+
+[Jekyll](https://jekyllrb.com/).   
+
+[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).  
+
+[Daweet](https://github.com/Daweet/Daweet.github.io/settings).  
+
 
 and ![Image](src)
 ```
-[Markdown](https://www.markdownguide.org). 
-[Jekyll](https://jekyllrb.com/). 
-[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-[Daweet](https://github.com/Daweet/Daweet.github.io/settings)
+[Markdown](https://www.markdownguide.org).   
+
+[Jekyll](https://jekyllrb.com/).   
+
+[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).  
+
+[Daweet](https://github.com/Daweet/Daweet.github.io/settings).  
+
 
 Similarly you can attach an image using the following syntax
 ```
@@ -129,7 +137,8 @@ Following footsteps of latex syntax, equations in markdown also are written with
 ```
 $E = mc^2$
 ```
-This results the following famous Einstien's equation
+This results the following famous Einstien's equation  
+
 $E = mc^2$
 
 ### More Info
