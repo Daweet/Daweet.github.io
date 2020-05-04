@@ -1,2 +1,6 @@
 theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
+isqus:
+    shortname: <https-daweet-github-io>
+baseurl: "daweet.github.io"
+url : "https://daweet.github.io"
