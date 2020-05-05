@@ -10,5 +10,29 @@ As Jonathan says _It actually is a lot easier than I thought it was going to be_
 
 Here is a brief review of how to use markdown that is listed on github pages.
 
+## Intro to Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
 The interestihg thing about this website is I can simply use the github provided editor [editor on GitHub](https://github.com/Daweet/Daweet.github.io/edit/master/README.md) to maintain and preview the content for my website, and this is done in Markdown files.
 
