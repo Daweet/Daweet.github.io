@@ -134,7 +134,7 @@ If we choose python as our example codes can be written in Markdown as foolows
 ```
 
 ### Equations in markdown
-Following footsteps of latex syntax, equations in Jupyternotebook markdown also are written within two dollar signs, example $E = mc^2$, but if it is not in Jupyter notebook it will have difficulty displaying equations. But a trick is provided in [Alexander Rodin](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b), where the equation is rendered as image. As I plan to use equations moreoften, I think I will have to search for alternative solution, that will be a blog in itself.
+Following footsteps of latex syntax, equations in Jupyter notebook markdown also are written within two dollar signs, example $$E = mc^2$$, but if it is not in Jupyter notebook it will have difficulty displaying equations. But a trick is provided in [Alexander Rodin](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b), where the equation is rendered as image. As I plan to use equations moreoften, I think I will have to search for alternative solution, that will be a blog in itself.
 ```
 <img src="https://render.githubusercontent.com/render/math?math=E = mc^2">
 ```
