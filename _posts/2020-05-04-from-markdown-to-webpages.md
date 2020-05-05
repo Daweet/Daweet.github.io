@@ -142,20 +142,23 @@ This results the following famous Einstien's equation
 
 <img src="https://render.githubusercontent.com/render/math?math=E = mc^2">
 
-Yet after appropriate inclusion of MathJax is set up, one can write the equations as in the following, although it looks like some kind of error in the markdown file, it is properly shown [hopefully] in the web page. 
+Yet after appropriate inclusion of MathJax and relevant set up is done, one can write the equations as follows. Before we display our equation, I should mention that though in markdown version the equuation looks like some kind of error, it is properly shown [hopefully] in the web page, as I tried to check. Details of how to achieve this target is described in [here](https://www.linode.com/docs/applications/project-management/jupyter-notebook-on-jekyll/), and that is what I use to diplay the following equation. The page also describes how to import your jupyter notebook as markdown, which I think is a nice neat plan one needs to exploit if the approach described in this page is not displaying your equations.
 ```
 $$
 \begin{equation}
-\mathbf{H} = -\boldsymbol{\mu} \cdot \mathbf{B} = - \gamma B_o \mathbf{S}_z = -\frac{\gamma B_o\hbar}{2} 
-\begin{bmatrix} 1&0\\0&-1 \end{bmatrix}.
+\mathbf{H} = -\boldsymbol{\mu} \cdot \mathbf{B} 
+           = - \gamma B_o \mathbf{S}_z 
+           = -\frac{\gamma B_o\hbar}{2} \begin{bmatrix} 1&0\\0&-1 \end{bmatrix}.
 \end{equation}
 $$
 ```
 The above copde results in 
+
 $$
 \begin{equation}
-\mathbf{H} = -\boldsymbol{\mu} \cdot \mathbf{B} = - \gamma B_o \mathbf{S}_z = -\frac{\gamma B_o\hbar}{2} 
-\begin{bmatrix} 1&0\\0&-1 \end{bmatrix}.
+\mathbf{H} = -\boldsymbol{\mu} \cdot \mathbf{B} 
+           = - \gamma B_o \mathbf{S}_z 
+           = -\frac{\gamma B_o\hbar}{2} \begin{bmatrix} 1&0\\0&-1 \end{bmatrix}.
 \end{equation}
 $$
 
