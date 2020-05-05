@@ -142,6 +142,9 @@ This results the following famous Einstien's equation
 
 <img src="https://render.githubusercontent.com/render/math?math=E = mc^2">
 
+ {% raw %}
+  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+ {% endraw %}
 
 ### More Info
 
