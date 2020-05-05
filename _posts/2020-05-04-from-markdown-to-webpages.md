@@ -146,9 +146,11 @@ Yet after appropriate inclusion of MathJax and relevant set up is done, one can 
 ```
 $$
 \begin{equation}
-\mathbf{H} = -\boldsymbol{\mu} \cdot \mathbf{B} \\
-           = - \gamma B_o \mathbf{S}_z \\
-           = -\frac{\gamma B_o\hbar}{2} \begin{bmatrix} 1&0\\0&-1 \end{bmatrix}.\\
+\begin{aligned}
+\mathbf{H} =& -\boldsymbol{\mu} \cdot \mathbf{B}\\
+           =& - \gamma B_o \mathbf{S}_z\\
+           =& -\frac{\gamma B_o\hbar}{2} \begin{bmatrix} 1&0\\0&-1 \end{bmatrix}.
+\end{aligned}
 \end{equation}
 $$
 ```
@@ -156,9 +158,11 @@ The above copde results in
 
 $$
 \begin{equation}
+\begin{aligned}
 \mathbf{H} =& -\boldsymbol{\mu} \cdot \mathbf{B}\\
            =& - \gamma B_o \mathbf{S}_z\\
            =& -\frac{\gamma B_o\hbar}{2} \begin{bmatrix} 1&0\\0&-1 \end{bmatrix}.
+\end{aligned}
 \end{equation}
 $$
 
