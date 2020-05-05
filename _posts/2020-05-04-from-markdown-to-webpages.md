@@ -142,7 +142,7 @@ This results the following famous Einstien's equation
 
 <img src="https://render.githubusercontent.com/render/math?math=E = mc^2">
 
-Yet after appropriate inclusion of MathJax and relevant set up is done, one can write the equations as follows. Before we display our equation, I should mention that though in markdown version the equuation looks like some kind of error, it is properly shown [hopefully] in the web page, as I tried to check. Details of how to achieve this target is described in [here](https://www.linode.com/docs/applications/project-management/jupyter-notebook-on-jekyll/), and that is what I use to diplay the following equation. The page also describes how to import your jupyter notebook as markdown, which I think is a nice neat plan one needs to exploit if the approach described in this page is not displaying your equations.
+Yet after appropriate inclusion of [MathJax](https://www.mathjax.org) and relevant set up is done, one can write the equations as follows. Before we display our equation, I should mention that though in markdown version the equuation looks like some kind of error, it is properly shown [hopefully] in the web page, as I tried to check. Details of how to achieve this target is described in [here](https://www.linode.com/docs/applications/project-management/jupyter-notebook-on-jekyll/), and that is what I use to diplay the following equation. The page also describes how to import your jupyter notebook as markdown, which I think is a nice neat plan one needs to exploit if the approach described in this page is not displaying your equations.
 ```
 $$
 \begin{equation}
