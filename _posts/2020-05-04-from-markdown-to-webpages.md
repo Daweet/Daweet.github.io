@@ -142,7 +142,15 @@ This results the following famous Einstien's equation
 
 <img src="https://render.githubusercontent.com/render/math?math=E = mc^2">
 
-$$c = \pm\sqrt{a^2 + b^2}$$
+$$
+\begin{equation*}
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0
+\end{vmatrix}
+\end{equation*}
+$$
 
 ### More Info
 
