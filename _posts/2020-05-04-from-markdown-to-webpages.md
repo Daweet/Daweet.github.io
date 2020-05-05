@@ -142,8 +142,6 @@ This results the following famous Einstien's equation
 
 <img src="https://render.githubusercontent.com/render/math?math=E = mc^2">
 
- \\[ \frac{1}{n^{2}} \\]
-
 ### More Info
 
 More information on github is provided on the link, see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
