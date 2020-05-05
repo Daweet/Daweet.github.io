@@ -92,7 +92,7 @@ Unordered can be written as
 * Cantaloupe
 ```
 
-Resulting the following unorderdd list along with thier sublistsz
+Resulting the following unorderdd list along with thier sublists
 - Apple
   - 1 pound
 + Banana
