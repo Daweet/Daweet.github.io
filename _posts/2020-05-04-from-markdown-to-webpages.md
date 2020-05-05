@@ -134,7 +134,7 @@ If we choose python as our example codes can be written in Markdown as follows
 ```
 
 ### Equations in markdown
-Following footsteps of latex syntax, equations in Jupyter notebook markdown also are written within two dollar signs $$E = mc^2$$, but if it is not in Jupyter notebook it will have difficulty displaying equations. But a trick is provided in [Alexander Rodin](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b), where the equation is rendered as image. As I plan to use equations moreoften, I think I will have to search for alternative solution, that will be a blog in itself.
+Following footsteps of latex syntax, equations in Jupyter notebook markdown also are written within two dollar signs $$E = mc^2$$, but if it is not displayed, sometimes it doesn't unless it is typed in Jupyter notebook it will have difficulty displaying equations. But a trick is provided in [Alexander Rodin](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b), where the equation is rendered as image. As I plan to use equations moreoften, I think I will have to search for alternative solution, that will be a blog in itself.
 ```
 <img src="https://render.githubusercontent.com/render/math?math=E = mc^2">
 ```
@@ -142,14 +142,21 @@ This results the following famous Einstien's equation
 
 <img src="https://render.githubusercontent.com/render/math?math=E = mc^2">
 
+Yet after appropriate inclusion of MathJax is set up, one can write the equations as in the following, although it looks like some kind of error in the markdown file, it is properly shown [hopefully] in the web page. 
+```
 $$
-\begin{equation*}
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0
-\end{vmatrix}
-\end{equation*}
+\begin{equation}
+\mathbf{H} = -\boldsymbol{\mu} \cdot \mathbf{B} = - \gamma B_o \mathbf{S}_z = -\frac{\gamma B_o\hbar}{2} 
+\begin{bmatrix} 1&0\\0&-1 \end{bmatrix}.
+\end{equation}
+$$
+```
+The above copde results in 
+$$
+\begin{equation}
+\mathbf{H} = -\boldsymbol{\mu} \cdot \mathbf{B} = - \gamma B_o \mathbf{S}_z = -\frac{\gamma B_o\hbar}{2} 
+\begin{bmatrix} 1&0\\0&-1 \end{bmatrix}.
+\end{equation}
 $$
 
 ### More Info
