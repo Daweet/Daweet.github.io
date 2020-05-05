@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
-mathjax: true
+kramdown:
+  math_engine: mathjax
