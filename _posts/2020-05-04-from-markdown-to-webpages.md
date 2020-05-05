@@ -142,6 +142,8 @@ This results the following famous Einstien's equation
 
 <img src="https://render.githubusercontent.com/render/math?math=E = mc^2">
 
+$$c = \pm\sqrt{a^2 + b^2}$$
+
 ### More Info
 
 More information on github is provided on the link, see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
