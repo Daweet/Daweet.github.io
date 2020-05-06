@@ -108,24 +108,24 @@ Resulting the following unorderdd list along with thier sublists
 ### Linking url and image
 Link will be writen by name of the link written on a suqare bracket that the user will click on, i.e [name], coupled with the url in a bracket(url)
 ```
-[Markdown](https://www.markdownguide.org).  
+This is a link to markdown page [Markdown](https://www.markdownguide.org).  
 
-[Jekyll](https://jekyllrb.com/).   
+This is a link to Jekyll page [Jekyll](https://jekyllrb.com/).   
 
-[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).  
+This is a link to Github page [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).  
 
-[Daweet](https://github.com/Daweet/Daweet.github.io/settings).  
+This is a link to my page [Daweet](https://github.com/Daweet/Daweet.github.io/settings).  
 
 
 and ![Image](src)
 ```
-[Markdown](https://www.markdownguide.org).   
+This is a link to markdown page[Markdown](https://www.markdownguide.org).   
 
-[Jekyll](https://jekyllrb.com/).   
+This is a link to Jekyll page [Jekyll](https://jekyllrb.com/).   
 
-[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).  
+This is a link to Github page [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).  
 
-[Daweet](https://github.com/Daweet/Daweet.github.io/settings).  
+This is a link to my page [Daweet](https://github.com/Daweet/Daweet.github.io/settings).  
 
 
 Similarly you can attach an image using the following syntax
@@ -135,9 +135,11 @@ Similarly you can attach an image using the following syntax
 ### Including code lines
 
 If we choose python as our example codes can be written in Markdown as follows
+<pre><code>
 ```python
 "print('Welcome to my page, World!)"
 ```
+</pre></code>
 
 ### Equations in markdown
 Following footsteps of latex syntax, equations in Jupyter notebook markdown also are written within two dollar signs $$E = mc^2$$, but if it is not displayed, sometimes it doesn't unless it is typed in Jupyter notebook it will have difficulty displaying equations. But a trick is provided in [Alexander Rodin](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b), where the equation is rendered as image. As I plan to use equations moreoften, I think I will have to search for alternative solution, that will be a blog in itself.
