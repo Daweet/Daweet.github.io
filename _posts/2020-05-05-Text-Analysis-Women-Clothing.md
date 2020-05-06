@@ -1,10 +1,8 @@
 
 ---
 layout: post
-title:  "Text Analysis Women Clothing"
-date:   2020-05-05 12:07:25 +0000
-categories:
-  - data
+title: "From Markdown to Website pages"
+date: 2020-05-05
 ---
 # Text Analysis
 
