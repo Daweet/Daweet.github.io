@@ -5,3 +5,4 @@ kramdown:
   math_engine: mathjax
   input: GFM
   syntax_highlighter: rouge
+  extensions: fenced_code_blocks
