@@ -1173,7 +1173,12 @@ df['Review Text'].iloc[0]
 
 
 
-    'I had such high hopes for this dress and really wanted it to work for me. i initially ordered the petite small (my usual size) but i found this to be outrageously small. so small in fact that i could not zip it up! i reordered it in petite medium, which was just ok. overall, the top half was comfortable and fit nicely, but the bottom half had a very tight under layer and several somewhat cheap (net) over layers. imo, a major design flaw was the net over layer sewn directly into the zipper - it c'
+    'I had such high hopes for this dress and really wanted it to work for me. 
+    i initially ordered the petite small (my usual size) but i found this to be outrageously small. 
+    so small in fact that i could not zip it up! i reordered it in petite medium, which was just ok. 
+    overall, the top half was comfortable and fit nicely, but the bottom half had a very tight under 
+    layer and several somewhat cheap (net) over layers. imo, a major design flaw was the net over layer
+    sewn directly into the zipper - it c'
 
 
 
@@ -1213,7 +1218,8 @@ df['Review Text'].iloc[79]
 
 
 
-    "The fabric felt cheap and i didn't find it to be a flattering top. for reference i am wearing a medium in the photos and my measurements are 38-30-40."
+    "The fabric felt cheap and i didn't find it to be a flattering top. for reference i am wearing a medium in 
+    the photos and my measurements are 38-30-40."
 
 
 
@@ -1253,7 +1259,11 @@ df['Review Text'].iloc[19]
 
 
 
-    "First of all, this is not pullover styling. there is a side zipper. i wouldn't have purchased it if i knew there was a side zipper because i have a large bust and side zippers are next to impossible for me.\n\nsecond of all, the tulle feels and looks cheap and the slip has an awkward tight shape underneath.\n\nnot at all what is looks like or is described as. sadly will be returning, but i'm sure i will find something to exchange it for!"
+    "First of all, this is not pullover styling. there is a side zipper. i wouldn't have purchased it 
+    if i knew there was a side zipper because i have a large bust and side zippers are next to impossible
+    for me.\n\nsecond of all, the tulle feels and looks cheap and the slip has an awkward tight shape underneath.
+    \n\nnot at all what is looks like or is described as. sadly will be returning, but i'm sure i will find 
+    something to exchange it for!"
 
 
 
