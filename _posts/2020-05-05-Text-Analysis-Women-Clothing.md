@@ -1,9 +1,9 @@
-
 ---
 layout: post
 title: "From Markdown to Website pages"
 date: 2020-05-05
 ---
+
 # Text Analysis
 
 In this post, we will discuss how one can make sentiment analysis. Such analysis is crucial to a variety of stakeholders. It is of no surprise by now to see comments and reviews at the end of posts, online purchases, feedback for apps and/or websites. Therefore it is insightful for bloggers, online markets, app-devlopers etc to have the abilty to analyse the feedback/s they are getting from respective customers and/or users. Sentiment analysis employes techniques to interpret and classify text data as **positive**, **negative**, and **neutral** based on polarity.  This ability to classify text data based on emotions reflected by words helps online bussiness providers improve their services and/or products. 
