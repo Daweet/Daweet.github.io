@@ -1356,7 +1356,7 @@ values = df_sentiments.values
 fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.7)])
 fig.show()
 ```
-![png](/img/Text_Analysis_Women_Clothing_files/Text_Analysis_Women_Clothing_63_0.png){:height="360px" width="360px"}
+![png](/img/Text_Analysis_Women_Clothing_files/Text_Analysis_Women_Clothing_63_0.png){:height="450px" width="450px"}
 
 To get clear picture of the neutral and negative catagories let us make a histogram plot. To do so we need to convert the categories into numbers using the following function. Where we assigned positive =1, negative =-1, and neutral = 0.
 
