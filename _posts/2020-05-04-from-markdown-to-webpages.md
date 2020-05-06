@@ -136,12 +136,12 @@ Similarly you can attach an image using the following syntax
 
 If we choose python as our example codes can be written in Markdown as follows
 
-<pre><code>
-    ```python
+{% highlight python %}
+```python
 "print('Welcome to my page, World!)"
 ```
-</code></pre>
-
+{% endhighlight %}
+ 
 ```python
 "print('Welcome to my page, World!)"
 ```
