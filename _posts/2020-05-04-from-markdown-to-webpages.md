@@ -1,3 +1,9 @@
+
+---
+layout: post
+title: "From Markdown to Website pages"
+date: 2020-05-03
+---
 <!--# From Markdown to Website pages-->
 
 I am going to use Markdown to create my webpages, the question is how do you achieve that? So how do you create the web pages? 
