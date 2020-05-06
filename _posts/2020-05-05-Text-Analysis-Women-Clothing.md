@@ -1500,7 +1500,7 @@ df.groupby(['sentiment_category']).size().plot.pie(label="");
 ```
 
 
-![png](Text_Analysis_Women_Clothing_files/Text_Analysis_Women_Clothing_62_0.png)
+![png](img/Text_Analysis_Women_Clothing_files/Text_Analysis_Women_Clothing_62_0.png)
 
 
 As we can see from the pie chart the majority of the reviews are categorized to be postive. Set aside as to the resason why we got such large proportion of postive category as it is not the the scope of the present post. But it is worth pointing out that the analysis needs further refining. This could be related because of the limitation of the function to anlayse words like `wouldn't, couldn't, isn't` and the likes. 
@@ -1520,6 +1520,7 @@ values = df_sentiments.values
 fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.7)])
 fig.show()
 ```
+![png](img/Text_Analysis_Women_Clothing_files/Text_Analysis_Women_Clothing_63_0.png)
 
 To get clear picture of the neutral and negative catagories let us make a histogram plot. To do so we need to convert the categories into numbers using the following function. Where we assigned positive =1, negative =-1, and neutral = 0.
 
@@ -1547,7 +1548,7 @@ df['sentiment_category_num'].plot(kind='hist');
 ```
 
 
-![png](Text_Analysis_Women_Clothing_files/Text_Analysis_Women_Clothing_68_0.png)
+![png](img/Text_Analysis_Women_Clothing_files/Text_Analysis_Women_Clothing_68_0.png)
 
 
 
@@ -1557,7 +1558,7 @@ df['sentiment_category_num'].plot(kind='hist', ylim=(0,700));
 ```
 
 
-![png](Text_Analysis_Women_Clothing_files/Text_Analysis_Women_Clothing_69_0.png)
+![png](img/Text_Analysis_Women_Clothing_files/Text_Analysis_Women_Clothing_69_0.png)
 
 
 Overall, it seems that most buyers feel positive.
