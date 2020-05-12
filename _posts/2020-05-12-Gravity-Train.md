@@ -19,7 +19,7 @@ To proceed let us imagine that we have such advanced technological capability an
 
 Bear in mind connecting two parts of the Earth with a tunnel that passes through center of the Earth is requires the length of the tunnel to be the diameter of the Earth. And two diametrically opposite points in a sphere (or Earth in this case) what is known as \textbf{Antipodes} in geography and mathematics.  The map on Fig.~\ref{fig:Antipodes_LAEA} shows the antipode of each point on Earth's surface. Land antipodes are depicted as  points where the blue and yellow overlap. The yellow areas are the reflections through Earth's center of land masses of the opposite Western Hemisphere. I refer the interested reader to [Antipodes of each point on Earth's surface](https://commons.wikimedia.org/w/index.php?curid=4343579.)  for further reading.
 
-![Antipodes of each point on Earth's surface](/img/Gravity_Train/Antipodes_LAEA.png =500x500)
+![Antipodes of each point on Earth's surface](/img/Gravity_Train/Antipodes_LAEA.png {:height="36px" width="36px"})
 
 In case you are not into doing  hand calculation to get the antipodal of your city, or country, here is a python library that you can make use of to calculate the latitude and longitude of your antipodes. Just in case your antipodes are land,  congratulations go look for someone in the other part of the world and make \textbf{Earth sandwich}
 
