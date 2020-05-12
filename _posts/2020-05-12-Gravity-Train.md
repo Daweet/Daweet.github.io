@@ -14,7 +14,7 @@ To proceed let us imagine that we have such advanced technological capability an
 
 Bear in mind connecting two parts of the Earth with a tunnel that passes through center of the Earth is requires the length of the tunnel to be the diameter of the Earth. And two diametrically opposite points in a sphere (or Earth in this case) what is known as \textbf{Antipodes} in geography and mathematics.  The map on Fig.~\ref{fig:Antipodes_LAEA} shows the antipode of each point on Earth's surface. Land antipodes are depicted as  points where the blue and yellow overlap. The yellow areas are the reflections through Earth's center of land masses of the opposite Western Hemisphere. I refer the interested reader to [Antipodes of each point on Earth's surface](https://commons.wikimedia.org/w/index.php?curid=4343579.)  for further reading.
 
-![Antipodes of each point on Earth's surface](Antipodes_LAEA.png)
+![Antipodes of each point on Earth's surface](/img/Gravity_Train/Antipodes_LAEA.png)
 
 In case you are not into doing  hand calculation to get the antipodal of your city, or country, here is a python library that you can make use of to calculate the latitude and longitude of your antipodes. Just in case your antipodes are land,  congratulations go look for someone in the other part of the world and make \textbf{Earth sandwich}
 
@@ -29,7 +29,7 @@ print (your_antipode.lon) # -103.0281
 ## The physics of Gravity Train
 So assuming we will overcome the technological challenges, let us now employ the physics. In this section we will calculate how long it takes for the gravity train to commute from one end to another via the center of the Earth. For simplicity and convenience we take the Earth's density to be uniform on average.  At the starting end when you enter the tunnel we can calculate your acceleration due to gravity using Newton's universal gravitation law as follows (recall you will be 'falling' into the tunnel)
 
-![A tunnel through the Earth ](Earth.png)
+![A tunnel through the Earth ](/img/Gravity_Train/Earth.png)
 
 \begin{equation}
 \begin{aligned}
