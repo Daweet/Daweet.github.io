@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Dawit Hailu, Launches Site"
+category: Data Science
+tags: [github pages,markdown, jekyll]
 date: 2020-05-03
 ---
 
