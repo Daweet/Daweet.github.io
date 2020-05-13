@@ -17,6 +17,14 @@ title: Dawit Hailu's Blog
         {{ post.title }}
       </a>
     </h1>
+	  {% comment %}
+=======================
+The purpose of this snippet is to list all the tags you have in your site.
+=======================
+{% endcomment %}
+{% for tag in tags %}
+	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
+{% endfor %}
 {% comment %}
 =======================
 The purpose of this snippet is to list all your posts posted with a certain tag.
@@ -41,12 +49,6 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 		 {% endif %}
 	 {% endfor %}
 	</ul>
-{% endfor %}{% comment %}
-=======================
-The purpose of this snippet is to list all the tags you have in your site.
-=======================
-{% endcomment %}
-{% for tag in tags %}
-	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
 {% endfor %}
+
 </div>
