@@ -66,7 +66,7 @@ surface](https://commons.wikimedia.org/w/index.php?curid=4343579.) for
 further reading.
 
 ![[fig:Antipodes] [Antipodes of each point on Earth’s
-surface](https://commons.wikimedia.org/w/index.php?curid=4343579.)](/img/Gravity_Train/Antipodes_LAEA)
+surface](https://commons.wikimedia.org/w/index.php?curid=4343579.)](/img/Gravity_Train/Antipodes_LAEA.png)
 
 In case you are not into doing hand calculation to get the antipodal of
 your city, or country, here is a python library that you can make use of
@@ -92,7 +92,7 @@ we can calculate your acceleration due to gravity using Newton’s
 universal gravitation law as follows (recall you will be ’falling’ into
 the tunnel)
 
-![[fig:Earth] A tunnel through the Earth .](/img/Gravity_Train/Earth)
+![[fig:Earth] A tunnel through the Earth .](/img/Gravity_Train/Earth.png)
 
 $$\begin{aligned}
  -\frac{GM_em}{R_e^2} &= -mg\\
@@ -174,7 +174,7 @@ This means the time taken for you travel to your destination is half of
 the round trip or about $42$ minutes, pretty nice huh?! Hang on though,
 you will feel weightlessness when you are passing through the center.
 
-[sec:level3]Orbiting around the Earth
+Orbiting around the Earth
 -------------------------------------
 
 Another proposal which can also be found on
