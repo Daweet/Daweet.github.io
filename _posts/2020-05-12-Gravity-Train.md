@@ -5,7 +5,11 @@ date: 2020-05-12
 ---
 <!--# Gravity Train-->
 
-
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
  
 
 Gravity as transportation agent
@@ -56,7 +60,7 @@ Bear in mind connecting two parts of the Earth with a tunnel that passes
 through center of the Earth is requires the length of the tunnel to be
 the diameter of the Earth. And two diametrically opposite points in a
 sphere (or Earth in this case) what is known as **Antipodes** in
-geography and mathematics. The map on Fig. [fig:Antipodes~L~AEA] shows
+geography and mathematics. The map on Fig. below shows
 the antipode of each point on Earth’s surface. Land antipodes are
 depicted as points where the blue and yellow overlap. The yellow areas
 are the reflections through Earth’s center of land masses of the
@@ -111,7 +115,7 @@ of the Earth changes as we go deep, this is because the distance from
 the center is decreasing. When you arrive, say at a distance $h$, from
 the surface. It is implied that you are $$r= R_e-h$$ away from the center
 of the Earth. Therefore the mass of this ’new’ sphere, shown as white in
-Fig. [fig:Earth] depends on the volume and density of the portion of the
+Fig. above depends on the volume and density of the portion of the
 Earth, i.e $$m_r = \rho v_r$$, where $$v_r$$ is the volume of the smaller
 sphere. Following same steps as we did to arrive at Eq. ([eq:one]), and
 recalling the assumption that the density of the Earth to be uniform,
