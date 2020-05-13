@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "From Markdown to Website pages"
+category: Data Science
+tags: [webpage, markdown jekyll]
 date: 2020-05-04
 ---
 
