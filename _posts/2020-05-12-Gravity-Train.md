@@ -49,7 +49,7 @@ According to [wikipedia](https://en.wikipedia.org/wiki/Antipodes), of
 the remaining land part roughly about 15% of it will have a land on the
 opposite side of the tunnel. This means even if you dug up a whole from
 your city chances are high that you will end up on ocean than land, i.e
-$0.15 \times 29\% = 4.35\% $, where $29\%$ is the percentage of land on
+0.15 X 29% = 4.35% , where 29% is the percentage of land on
 Earth’s surface.
 
 Bear in mind connecting two parts of the Earth with a tunnel that passes
@@ -101,18 +101,18 @@ $$\begin{aligned}
 \end{aligned}$$
 
 Plugging the values of mass of the Earth
-$ M_e = 5.967\times10^{24} \mathrm{kg}$, radius of the Earth
-$R_e=6,371 \mathrm{km}$, and the gravitational constant
-$G=6.674\times10^{-11} \frac{\mathrm{m}^3}{ \mathrm{kg s}^2}$ we get
-that your starting acceleration is $9.8 \mathrm{m/s}^2$. But will this
+$$ M_e = 5.967\times10^{24} \mathrm{kg}$$, radius of the Earth
+$$R_e=6,371 \mathrm{km}$$, and the gravitational constant
+$$G=6.674\times10^{-11} \frac{\mathrm{m}^3}{ \mathrm{kg s}^2}$$ we get
+that your starting acceleration is $$9.8 \mathrm{m/s}^2$$. But will this
 acceleration be the same all the way into the center of the Earth? We
 will answer that in a moment. One thing we should note is that the mass
 of the Earth changes as we go deep, this is because the distance from
 the center is decreasing. When you arrive, say at a distance $h$, from
-the surface. It is implied that you are $r= R_e-h$ away from the center
+the surface. It is implied that you are $$r= R_e-h$$ away from the center
 of the Earth. Therefore the mass of this ’new’ sphere, shown as white in
 Fig. [fig:Earth] depends on the volume and density of the portion of the
-Earth, i.e $m_r = \rho v_r$, where $v_r$ is the volume of the smaller
+Earth, i.e $$m_r = \rho v_r$$, where $$v_r$$ is the volume of the smaller
 sphere. Following same steps as we did to arrive at Eq. ([eq:one]), and
 recalling the assumption that the density of the Earth to be uniform,
 the gravity at height $r$ from the center takes the form:
@@ -133,7 +133,7 @@ $$\begin{aligned}
 This simple result entails with it an important interesting information,
 it. reveals that as you go to the center of the earth the acceleration
 becomes smaller and smaller. Using the acceleration of Eq. ([eq:two]),
-the gravitational force at distance $r$ can also be calculated as
+the gravitational force at distance $$r$$ can also be calculated as
 
 $$\begin{aligned}
  F &= -mg_r\\
@@ -142,9 +142,9 @@ $$\begin{aligned}
 \end{aligned}$$
 
 You already might have noticed that Eq. ([eq:four]) has the same form as
-Hooke’s law, with $k=mg/R_e$. According to Hooke’s law the force
+Hooke’s law, with $$k=mg/R_e$$. According to Hooke’s law the force
 required to either extend or compress a spring by some distance $r$
-scales linearly with respect to that distance, $F=-kr$. This implies
+scales linearly with respect to that distance, $$F=-kr$$. This implies
 that once you set foot on that train at the entry, you will oscillate
 back and forth through the center of the Earth, that means unless you
 grab onto something upon arrival at your destination you will be sent
@@ -171,7 +171,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 This means the time taken for you travel to your destination is half of
-the round trip or about $42$ minutes, pretty nice huh?! Hang on though,
+the round trip or about $$42$$ minutes, pretty nice huh?! Hang on though,
 you will feel weightlessness when you are passing through the center.
 
 Orbiting around the Earth
@@ -185,17 +185,17 @@ Once again for simplicity we consider an ideal situation where we stop
 worrying about air drag and stuff like that.
 
 Of course we can approach the problem from circular motion perspective,
-i.e $F_g=\frac{mv^2}{R_e^2}$. But for this section let us use the
+i.e $$F_g=\frac{mv^2}{R_e^2}$$. But for this section let us use the
 conservation of mechanical energy, just to use variety of approaches. To
 reiterate we are ignoring all challenges like temperature, pressure etc.
 As this assumption allows us to employ the total mechanical energy
 conservation, let us exploit that approach in here. In a nutshell, for
 an isolated system, the total mechanical energy conservation dictates
-that $\Delta K + \Delta U =0$.
+that $$\Delta K + \Delta U =0$$.
 
 To implement the conservation of energy, we are going to use the
 following parameters. At the entry point let us say your speed is zero
-and your height is the diameter $2R_e$, at the exit hole your height is
+and your height is the diameter $$2R_e$$, at the exit hole your height is
 zero and speed is to be determined. I say entry and exit, because we are
 assuming that you are going to start with zero speed at your starting
 point, which is a diameter away from your destination
@@ -211,7 +211,7 @@ From which we now make use of one of the kinematic equations for
 uniformly accelerated rectilinear motions to determine the time of your
 travel. It is worth noting here too that the distance you travel to
 arrive at your destination is the circumference of the circumference of
-the circular path, i.e $2\pi R_e$.
+the circular path, i.e $$2\pi R_e$$.
 
 $$\begin{aligned}
   T &=\frac{2\pi R_e}{v}\\
