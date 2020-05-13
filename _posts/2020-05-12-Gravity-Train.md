@@ -5,11 +5,7 @@ date: 2020-05-12
 ---
 <!--# Gravity Train-->
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
+
  
 
 Gravity as transportation agent
