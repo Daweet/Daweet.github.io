@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Gravity Train"
+category: physics
+tags: [gravity train, antipodes, earth]
 date: 2020-05-12
 ---
 <!--# Gravity Train-->
