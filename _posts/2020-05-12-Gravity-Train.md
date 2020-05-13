@@ -66,7 +66,7 @@ surface](https://commons.wikimedia.org/w/index.php?curid=4343579.) for
 further reading.
 
 ![[fig:Antipodes] [Antipodes of each point on Earth’s
-surface](https://commons.wikimedia.org/w/index.php?curid=4343579.)](/img/Gravity_Train/Antipodes_LAEA.png =250x)
+surface](https://commons.wikimedia.org/w/index.php?curid=4343579.)](/img/Gravity_Train/Antipodes_LAEA.png){:height="360px" width="360px"}
 
 In case you are not into doing hand calculation to get the antipodal of
 your city, or country, here is a python library that you can make use of
