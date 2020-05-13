@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Text Analysis Women Clothing"
+category: Data Science
+tags: [python, sentiment analysis, comment analysis]
 date: 2020-05-05
 ---
 
