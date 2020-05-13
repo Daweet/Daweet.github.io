@@ -15,13 +15,13 @@ Set apart the practicality the idea is not only simple enough to grasp but has a
 
 Even if we manage to come up with a viable solution, won't it in itself lead us to another problem, won't the gravitational force of the Earth (now a hollow Earth) be affected? If so, wouldn't the project fail? Honestly the question of practicality is going to pile up one after the other , one can raise questions like: would't the temperature in the interior part of the Earth melt away the train itself, how would we deal with the effect of friction?
 
-To proceed let us imagine that we have such advanced technological capability and managed to  tackle every challenge facing us; after all this,  at the end, we will be faced with geographical reality. In a real world situation about 71% of the Earth's surface is covered by water. According to [wikipedia](https://en.wikipedia.org/wiki/Antipodes), of the remaining land part roughly about $15\%$ of it  will have a land on the opposite side of the tunnel. This means even if you dug up a whole from your city chances are high that you will end up on ocean than land, i.e $$0.15 \times 29% = 4.35% $$, where $$29\%$$ is the percentage of land on Earth's surface. 
+To proceed let us imagine that we have such advanced technological capability and managed to  tackle every challenge facing us; after all this,  at the end, we will be faced with geographical reality. In a real world situation about 71% of the Earth's surface is covered by water. According to [wikipedia](https://en.wikipedia.org/wiki/Antipodes), of the remaining land part roughly about $15\%$ of it  will have a land on the opposite side of the tunnel. This means even if you dug up a whole from your city chances are high that you will end up on ocean than land, i.e $$0.15 \times 29\% = 4.35\% $$, where $$29\%$$ is the percentage of land on Earth's surface. 
 
-Bear in mind connecting two parts of the Earth with a tunnel that passes through center of the Earth is requires the length of the tunnel to be the diameter of the Earth. And two diametrically opposite points in a sphere (or Earth in this case) what is known as \textbf{Antipodes} in geography and mathematics.  The map on $Fig.~\ref{fig:Antipodes_LAEA}$ shows the antipode of each point on Earth's surface. Land antipodes are depicted as  points where the blue and yellow overlap. The yellow areas are the reflections through Earth's center of land masses of the opposite Western Hemisphere. I refer the interested reader to [Antipodes of each point on Earth's surface](https://commons.wikimedia.org/w/index.php?curid=4343579.)  for further reading.
+Bear in mind connecting two parts of the Earth with a tunnel that passes through center of the Earth is requires the length of the tunnel to be the diameter of the Earth. And two diametrically opposite points in a sphere (or Earth in this case) what is known as \textbf{Antipodes} in geography and mathematics.  The map on Fig.~\ref{fig:Antipodes_LAEA} shows the antipode of each point on Earth's surface. Land antipodes are depicted as  points where the blue and yellow overlap. The yellow areas are the reflections through Earth's center of land masses of the opposite Western Hemisphere. I refer the interested reader to [Antipodes of each point on Earth's surface](https://commons.wikimedia.org/w/index.php?curid=4343579.)  for further reading.
 
 <!-- ![Antipodes of each point on Earth's surface](/img/Gravity_Train/Antipodes_LAEA.png {:height="36px" width="36px"})-->
-<img src="/img/Gravity_Train/Antipodes_LAEA.png" alt="Antipodes of each point on Earth's surface" width="200"/>.   
-
+<img align=center src="/img/Gravity_Train/Antipodes_LAEA.png" alt="Antipodes of each point on Earth's surface" width="500"/>.   
+*Antipodes of each point on Earth's surface*
 
 In case you are not into doing  hand calculation to get the antipodal of your city, or country, here is a python library that you can make use of to calculate the latitude and longitude of your antipodes. Just in case your antipodes are land,  congratulations go look for someone in the other part of the world and make **Earth sandwich**
 
@@ -37,7 +37,7 @@ print (your_antipode.lon) # -103.0281
 So assuming we will overcome the technological challenges, let us now employ the physics. In this section we will calculate how long it takes for the gravity train to commute from one end to another via the center of the Earth. For simplicity and convenience we take the Earth's density to be uniform on average.  At the starting end when you enter the tunnel we can calculate your acceleration due to gravity using Newton's universal gravitation law as follows (recall you will be 'falling' into the tunnel)
 
 ![A tunnel through the Earth ](/img/Gravity_Train/Earth.png)
-
+*A tunnel through the Earth*
 \begin{equation}
 \begin{aligned}
  -\frac{GM_em}{R_e^2} &= -mg\\
