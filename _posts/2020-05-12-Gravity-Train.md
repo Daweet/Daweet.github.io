@@ -203,7 +203,7 @@ assuming that you are going to start with zero speed at your starting
 point, which is a diameter away from your destination
 
 $$\begin{aligned}
-  (\frac{1}{2}mv_f^2 -  \frac{1}{2}mv_i^2) + (mgh_f-mgh_i)&=0\\
+  \big(\frac{1}{2}mv_f^2 -  \frac{1}{2}mv_i^2\big) + (mgh_f-mgh_i)&=0\\
   2mgR_e &= \frac{1}{2}mv^2 \\
   v &= \sqrt{gR_e}
 \label{eq:seven}.
