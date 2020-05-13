@@ -36,10 +36,10 @@ print (your_antipode.lon) # -103.0281
 
 ## The physics of Gravity Train
 So assuming we will overcome the technological challenges, let us now employ the physics. In this section we will calculate how long it takes for the gravity train to commute from one end to another via the center of the Earth. For simplicity and convenience we take the Earth's density to be uniform on average.  At the starting end when you enter the tunnel we can calculate your acceleration due to gravity using Newton's universal gravitation law as follows (recall you will be 'falling' into the tunnel)
-<p align="center">
+
 ![A tunnel through the Earth ](/img/Gravity_Train/Earth.png)
 *A tunnel through the Earth*
- </p>
+
  
 \begin{equation}
 \begin{aligned}
