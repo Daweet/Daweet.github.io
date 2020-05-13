@@ -115,7 +115,7 @@ the surface. It is implied that you are $$r= R_e-h$$ away from the center
 of the Earth. Therefore the mass of this ’new’ sphere, shown as white in
 Fig. above depends on the volume and density of the portion of the
 Earth, i.e $$m_r = \rho v_r$$, where $$v_r$$ is the volume of the smaller
-sphere. Following same steps as we did to arrive at Eq. ([eq:one]), and
+sphere. Following same steps as we did to arrive at above equation, and
 recalling the assumption that the density of the Earth to be uniform,
 the gravity at height $r$ from the center takes the form:
 
@@ -134,7 +134,7 @@ $$\begin{aligned}
 
 This simple result entails with it an important interesting information,
 it. reveals that as you go to the center of the earth the acceleration
-becomes smaller and smaller. Using the acceleration of Eq. ([eq:two]),
+becomes smaller and smaller. Using the acceleration at r $$g_r$$,
 the gravitational force at distance $$r$$ can also be calculated as
 
 $$\begin{aligned}
@@ -143,7 +143,7 @@ $$\begin{aligned}
 \label{eq:four}.
 \end{aligned}$$
 
-You already might have noticed that Eq. ([eq:four]) has the same form as
+You already might have noticed that this equation has the same form as
 Hooke’s law, with $$k=mg/R_e$$. According to Hooke’s law the force
 required to either extend or compress a spring by some distance $r$
 scales linearly with respect to that distance, $$F=-kr$$. This implies
