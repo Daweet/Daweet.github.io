@@ -3,7 +3,7 @@ layout: post
 title: "Gravity Train"
 date: 2020-05-12
 ---
-# Gravity Train
+<!--# Gravity Train-->
 
 
  
@@ -47,8 +47,8 @@ So assuming we will overcome the technological challenges, let us now employ the
  Plugging the values of mass of the Earth $ M_e = 5.967\times10^{24} \mathrm{kg}$,  radius of the Earth $R_e=6,371 \mathrm{km}$, and the gravitational constant $G=6.674\times10^{-11} \frac{\mathrm{m}^3}{ \mathrm{kg s}^2}$ we get that your starting acceleration is $9.8 \mathrm{m/s}^2$. But will this acceleration be the same all the way into the center of the Earth? We will answer that in a moment. One thing we should note is that the mass of the Earth changes as we go deep, this is because the distance from the center is decreasing. When you arrive, say at a distance $h$, from the surface. It is implied that you are $r= R_e-h$ away from the center of the Earth. Therefore the mass of this 'new' sphere, shown as  white in  Fig.~\ref{fig:Earth} depends on the volume and density of the portion of the Earth, i.e $m_r = \rho v_r$, where $v_r$ is the volume of the smaller sphere. Following same steps as we did to arrive at Eq.~(\ref{eq:one}), and recalling the assumption that the density of the Earth to be uniform, the gravity at height $r$ from the center takes the form: 
 \begin{equation}
 \begin{aligned}
- g_r &= \frac{Gm_r}{r^2},\\  
- g_r &=g \frac{r}{R_e}
+ g_r = \frac{Gm_r}{r^2},\\  
+ g_r =g \frac{r}{R_e}
 \label{eq:two}.
 \end{aligned}
 \end{equation}
@@ -62,8 +62,8 @@ where we used
 This simple result  entails with it an important  interesting information, it. reveals that as you go to the center of the earth the acceleration becomes smaller and smaller. Using the acceleration of Eq.~(\ref{eq:two}), the gravitational force at distance $r$ can also be calculated as 
 \begin{equation}
 \begin{aligned}
- F &= -mg_r\\  
- F &=- \left(\frac{mg}{R_e}\right)r
+ F = -mg_r\\  
+ F =- \left(\frac{mg}{R_e}\right)r
 \label{eq:four}.
 \end{aligned}
 \end{equation}
@@ -73,7 +73,7 @@ This realization, about oscillation, lends itself to help us calculate the time 
 \begin{equation}
 \begin{aligned}
   \left(\frac{mg}{R_e}\right)r &= -m\omega^2 r\\  
- \omega &=\sqrt{ \frac{g}{R_e}}
+ \omega =\sqrt{ \frac{g}{R_e}}
 \label{eq:five}.
 \end{aligned}
 \end{equation}
@@ -82,9 +82,9 @@ Knowing the angular frequency,  we can calculate the period of your oscillation 
 
 \begin{equation}
 \begin{aligned}
-  T &=2\pi\sqrt{\frac{m}{k}}\\  
- T &=2\pi\sqrt{ \frac{R_e}{g}}\\  
- &\approx  5068 ~\mathrm{sec} \approx  84.5 ~\mathrm{min}  
+  T =2\pi\sqrt{\frac{m}{k}}\\  
+ T =2\pi\sqrt{ \frac{R_e}{g}}\\  
+ \approx  5068 ~\mathrm{sec} \approx  84.5 ~\mathrm{min}  
 \label{eq:six}.
 \end{aligned}
 \end{equation}
@@ -94,23 +94,23 @@ This means the time taken for you travel to your destination is half of the roun
 ## Orbiting around the Earth
 Another proposal which can also be found on [hyperphysics](http://hyperphysics.phy-astr.gsu.edu/hbase/Mechanics/earthole.html#c1) is instead of drilling a hole, you can go around the orbit, close to the surface of the Earth, and then drop when you arrive at your destination.  Once again for simplicity we  consider an ideal situation where we stop worrying about air drag and stuff like that. 
 
-Of course we can approach the problem from circular motion perspective, i.e  $F_g=\frac{mv^2}{R_e^2}$.  But for this  section let us use the conservation of mechanical energy, just to use variety of approaches. To reiterate we are ignoring all challenges like temperature, pressure etc. As this assumption allows us to  employ the total mechanical energy conservation, let us exploit that approach in here. In a nutshell, for an isolated system, the total mechanical energy conservation dictates that  $\Delta K + \Delta U =0$.  
+Of course we can approach the problem from circular motion perspective, i.e  $F_g=\frac{mv^2}{R_e^2}$.  But for this  section let us use the conservation of mechanical energy, just to use variety of approaches. To reiterate we are ignoring all challenges like temperature, pressure etc. As this assumption allows us to  employ the total mechanical energy conservation, let us exploit that approach in here. In a nutshell, for an isolated system, the total mechanical energy conservation dictates that  $$\Delta K + \Delta U =0$$.  
 
 To implement the conservation of energy, we are going to use the following parameters. At the entry point let us say your speed is zero and your height is the diameter $2R_e$, at the exit hole your height is zero and speed is to be determined. I say entry and exit, because we are assuming that you are going to start with zero speed at your starting point, which is  a diameter away from your destination  
 
 \begin{equation}
 \begin{aligned}
-  (\frac{1}{2}mv_f^2 -  \frac{1}{2}mv_i^2) + (mgh_f-mgh_i)&=0\\ 
-  2mgR_e &= \frac{1}{2}mv^2 \\  
-  v &= \sqrt{gR_e}
+  (\frac{1}{2}mv_f^2 -  \frac{1}{2}mv_i^2) + (mgh_f-mgh_i)=0\\ 
+  2mgR_e = \frac{1}{2}mv^2 \\  
+  v = \sqrt{gR_e}
 \label{eq:seven}.
 \end{aligned}
 \end{equation}
-From which we now make use of one of the kinematic equations for uniformly accelerated rectilinear motions to determine the time of your travel. It is worth noting here too that the distance you travel to arrive at your destination is the circumference of the circumference of the circular path, i.e $2\pi R_e$.
+From which we now make use of one of the kinematic equations for uniformly accelerated rectilinear motions to determine the time of your travel. It is worth noting here too that the distance you travel to arrive at your destination is the circumference of the circumference of the circular path, i.e $$2\pi R_e$$.
 \begin{equation}
 \begin{aligned}
-  T &=\frac{2\pi R_e}{v}\\  
-  T &= 2\pi\sqrt{\frac{R_e}{g}}\\  
+  T =\frac{2\pi R_e}{v}\\  
+  T = 2\pi\sqrt{\frac{R_e}{g}}\\  
 \label{eq:eight}.
 \end{aligned}
 \end{equation}
