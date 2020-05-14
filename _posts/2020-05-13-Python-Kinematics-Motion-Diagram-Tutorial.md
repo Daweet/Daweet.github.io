@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python-Kinematics-Motion-Diagram-Tutorial.md"
+title: "Python-Kinematics-Motion-Diagram-Tutorial"
 category: physics
 tags: [kinematics, python, motion diagram]
 date: 2020-05-12
@@ -866,3 +866,6 @@ print(xC,xT)
 Excellent! This actually is close enough to the analytical result we have obtained.
 
 To conclude we have seen how to use python to plot motion diagrams and solve our problems, we also have managed to get an intersection point of the curves.
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
