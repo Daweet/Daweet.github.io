@@ -1,4 +1,10 @@
-# Python for Kinematics: Motion Diagram
+---
+layout: post
+title: "Python-Kinematics-Motion-Diagram-Tutorial.md"
+category: physics
+tags: [kinematics, python, motion diagram]
+date: 2020-05-12
+---
 
 ### Kinematic Equation
 
@@ -142,7 +148,7 @@ position_DataFrame.plot(kind='scatter',x='t (s)', y='x(m)');
 ```
 
 
-![png](output_7_0.png)
+![png](/img/2020-05-13-Python-Kinematics-Motion-Diagram-Tutorial/output_7_0.png)
 
 
 This is a very simple, straight-forward plot of the data points, and we can see from the motion diagram of $x$ versus $t$ that the postion starts at 30m and goes down to -53m as time proceeds, and the curve looks kind of inverted parabola.
@@ -423,7 +429,7 @@ time.plot(kind='scatter',x='t',y='y');
 ```
 
 
-![png](output_15_0.png)
+![png](/img/2020-05-13-Python-Kinematics-Motion-Diagram-Tutorial/output_15_0.png)
 
 
 As expected we have taken five time-points and used the formula to obtain corresponding five points in the postion column, and the graph shows where each points are located. Let us see what kind of plot we get if we use line plot instead of scatter. 
@@ -439,7 +445,7 @@ time.plot(kind='line',x='t',y='y');
 ```
 
 
-![png](output_17_0.png)
+![png](/img/2020-05-13-Python-Kinematics-Motion-Diagram-Tutorial/output_17_0.png)
 
 
 You can see that the points are connected by a line, but the curve is not smooth. The question then is based on the above formula how can we get a smooth curve. The answer lies in the data points we take. Even if we want to plot the distance vs time, between zero to five seconds, we need as much points as possible to make the connection between the data point smooth enough. 
@@ -486,7 +492,7 @@ plt.show()
 ```
 
 
-![png](output_19_0.png)
+![png](/img/2020-05-13-Python-Kinematics-Motion-Diagram-Tutorial/output_19_0.png)
 
 
 From these graphs we can see that at t=5 sec, the distance is 22.5 m. Of course this is simple problem and one can arrive at the solution using easy plugging, but this approach is preferable when you have complicated and more variables. Moreover this is fun way to do it!
@@ -536,7 +542,7 @@ plt.show()
 ```
 
 
-![png](output_22_0.png)
+![png](/img/2020-05-13-Python-Kinematics-Motion-Diagram-Tutorial/output_22_0.png)
 
 
 Because the position of the particle is given by a mathematical function, the motion of the particle is completely known. One can see from the position–time graph that the particle moves in the negative 
@@ -580,7 +586,7 @@ p.show()
 ```
 
 
-![png](output_26_0.png)
+![png](/img/2020-05-13-Python-Kinematics-Motion-Diagram-Tutorial/output_26_0.png)
 
 
 Ontop of providing a clearer picture of the situation at hand, motion diagram also help us answer questions like the following **example** without having to solve them by hand.
@@ -664,7 +670,7 @@ plt.show()
 ```
 
 
-![png](output_31_0.png)
+![png](/img/2020-05-13-Python-Kinematics-Motion-Diagram-Tutorial/output_31_0.png)
 
 
 Great! we see that CarA starts from zero, while CarB starts 2000m away, after some time (approximately around 25 sec-- by looking at it) they meet,and then depart again. But our eye might be decieving us so, it will be helpful to look for a way that pinpoints the exact meeting point. I found a way to do this in a [stackoverflow](https://stackoverflow.com/questions/28766692/intersection-of-two-graphs-in-python-find-the-x-value) discussion. Of the suggestion provided, I found the **Shapely** package relevant for our case. So what is it?
@@ -742,7 +748,7 @@ plt.show()
 ```
 
 
-![png](output_34_0.png)
+![png](/img/2020-05-13-Python-Kinematics-Motion-Diagram-Tutorial/output_34_0.png)
 
 
 Nice! The dot at the intersection of the curves indicates that we are able to pin point the exact point. But still we need to print the result. To do so we can readily use the following line of code
@@ -838,7 +844,7 @@ plt.show()
 ```
 
 
-![png](output_41_0.png)
+![png](/img/2020-05-13-Python-Kinematics-Motion-Diagram-Tutorial/output_41_0.png)
 
 
 We can see that we the interesection point is a bit pass 30 seconds, we used our Shapley library to pinpoint the intersection time.
