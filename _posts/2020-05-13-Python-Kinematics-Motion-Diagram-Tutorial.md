@@ -3,7 +3,7 @@ layout: post
 title: "Python Kinematics: Motion Diagram Tutorial"
 category: physics
 tags: [kinematics, python, motion diagram]
-date: 2020-05-13
+date: 2020-05-12
 ---
 
 ### Kinematic Equation
