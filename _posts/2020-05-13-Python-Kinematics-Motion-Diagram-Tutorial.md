@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python-Kinematics-Motion-Diagram-Tutorial"
+title: "Python Kinematics: Motion Diagram Tutorial"
 category: physics
 tags: [kinematics, python, motion diagram]
 date: 2020-05-12
@@ -14,11 +14,11 @@ I will disscus here the simple use of Python to describe motion a system, specif
 
 Since my aim is to show how to use python to get motion diagrams, I am skipping the derivation of kinematic equations in here. I believe you already are able to do so, if not I refer you to [Wikipedia](https://en.wikipedia.org/wiki/Equations_of_motion). For convenienece we list the basic kinematic equations of motion as:
 
-> $v_{avg} =\frac {v_{i} + v_{f}}{2}$  
-  $s=v_{avg}t$  
-  $v_{f} = v_{i} + a t$  
-  $v^2_{f} = v^2_{i}+2as$  
-  $s= v_{i}t + \frac{1}{2}at^2$  
+> $$v_{avg} =\frac {v_{i} + v_{f}}{2}$$  
+  $$s=v_{avg}t$$  
+  $$v_{f} = v_{i} + a t$$  
+  $$v^2_{f} = v^2_{i}+2as$$  
+  $$s= v_{i}t + \frac{1}{2}at^2$$  
   
   
 One point worth mentioning about these equations is that they are used in a situation where the **acceleration is is constant**. These types of motion usually are referred to as Uniformly Accelerated Rectilinear Motion (UARM). Rectilinear-- indicates that the trajectory is a straight line.
@@ -151,9 +151,9 @@ position_DataFrame.plot(kind='scatter',x='t (s)', y='x(m)');
 ![png](/img/2020-05-13-Python-Kinematics-Motion-Diagram-Tutorial/output_7_0.png)
 
 
-This is a very simple, straight-forward plot of the data points, and we can see from the motion diagram of $x$ versus $t$ that the postion starts at 30m and goes down to -53m as time proceeds, and the curve looks kind of inverted parabola.
+This is a very simple, straight-forward plot of the data points, and we can see from the motion diagram of $$x$$ versus $t$ that the postion starts at 30m and goes down to -53m as time proceeds, and the curve looks kind of inverted parabola.
 
-Next step is to calculate the speed from our data, and by definition $\Delta v = \frac{\Delta x}{\Delta t}$, where $\Delta = Final - Initial$. Therefore by considering each row as initial value for the next row, we can calculate the speed using the following code line.
+Next step is to calculate the speed from our data, and by definition $$\Delta v = \frac{\Delta x}{\Delta t}$$, where $$\Delta = Final - Initial$$. Therefore by considering each row as initial value for the next row, we can calculate the speed using the following code line.
 
 
 ```python
@@ -313,7 +313,7 @@ position_DataFrame
 
 
 
-Again if we have information about speed, then we can calculate the accelaration. The step is pretty much the same as previous one, though now we take speed instaed of postion as by definition $\Delta a = \frac{\Delta v}{\Delta t}$. Recall each entry of the row is input as an intial value for the next row. Don't forget to replace the null values by zero.
+Again if we have information about speed, then we can calculate the accelaration. The step is pretty much the same as previous one, though now we take speed instaed of postion as by definition $$\Delta a = \frac{\Delta v}{\Delta t}$$. Recall each entry of the row is input as an intial value for the next row. Don't forget to replace the null values by zero.
 
 
 ```python
@@ -405,7 +405,7 @@ position_DataFrame
 
 We have seen earilier that when your data points are taken to be few, the plot is better viewed via scatter plot as our eye connects the dot and completes the curve. But if we try to make a line plot, as we see below, the line tries to connect each data points and based on that it yields plot. 
 
-<span style="color:blue">Let us take an **example** where an object is thrown upward with an intial velocity of $20m/s$, we want to calculate the total height the object covers when t is five seconds. For this case we chose the kinematic equation with $s=h$ and $a=g$, to get an equation of the form $y=y_i + v_i t - \frac{1}{2}gt^2$, where acceleration deue to gravity is given to be $g=9.8 m/s^2$.</span>
+<span style="color:blue">Let us take an **example** where an object is thrown upward with an intial velocity of $20m/s$, we want to calculate the total height the object covers when t is five seconds. For this case we chose the kinematic equation with $s=h$ and $$a=g$$, to get an equation of the form $$y=y_i + v_i t - \frac{1}{2}gt^2$$, where acceleration deue to gravity is given to be $$g=9.8 \mathrm{m/s^2}$$.</span>
 
 We can use the `range()` method in pandas to list five time points and form data frame, this produces a one column DataFrame, next we can add another column to the DataFrame that calculates the height (based on the above formula) and let us name this column to be 'y'. That is it we just formed a DataFrame that has time and postion as its columns. If you notice this is the same dataFrame as the one seen above. That means we can plot and see the relationship. One point worth noting is that while using the `range()` function with **start** and **stop** points, the range of integers end at **stop – 1**. Of course we could a step size, but the steps shoup be in _int_.
 
@@ -450,7 +450,7 @@ time.plot(kind='line',x='t',y='y');
 
 You can see that the points are connected by a line, but the curve is not smooth. The question then is based on the above formula how can we get a smooth curve. The answer lies in the data points we take. Even if we want to plot the distance vs time, between zero to five seconds, we need as much points as possible to make the connection between the data point smooth enough. 
 
-If we say the total time is plotted from 0 to $T$, as of now we have 5 points in this line (which is stretched from zero to T = 5 ), but now let us divide this line into $n$ many segements each length $\delta t$, and consequently we have $\delta t = T/N $. The smaller the segement the more smooth our curve becomes, this is so because $ N = T/\delta t$. 
+If we say the total time is plotted from 0 to $$T$$, as of now we have 5 points in this line (which is stretched from zero to T = 5 ), but now let us divide this line into $n$ many segements each length $$\delta t$$, and consequently we have $$\delta t = T/N $$. The smaller the segement the more smooth our curve becomes, this is so because $$ N = T/\delta t$$. 
 
 To achive this we use numpy's `linspace`, which returns evenly spaced numbers over a specified interval.
 
@@ -499,7 +499,7 @@ From these graphs we can see that at t=5 sec, the distance is 22.5 m. Of course 
 
 We can also use motion diagrams when one the dependece relation of one variable on another variable is known as in the following **example**
 ><span style="color:blue">A particle moves along the x axis. Its position varies with time according to
-the expression $x =- 4t + 2t^2$ , where $x$ is in meters and $t$ is in seconds.</span>
+the expression $$x =- 4t + 2t^2$$ , where $$x$$ is in meters and $$t$$ is in seconds.</span>
 
 
 ```python
@@ -591,16 +591,16 @@ p.show()
 
 Ontop of providing a clearer picture of the situation at hand, motion diagram also help us answer questions like the following **example** without having to solve them by hand.
   
-><span style="color:blue">Car A starts from rest and has an acceleration of $5.6 m/s^2$. Another car Car B starts at the other end of a track such that it is $2000$ meters away from Car A and driving towards car A. Car B starts with a velocity of $42 m/s$ and has an acceleration of $2.4 m/s^2$. Where and when do the two cars meet.</span>
+><span style="color:blue">Car A starts from rest and has an acceleration of $$5.6 m/s^2$$. Another car Car B starts at the other end of a track such that it is 2000 meters away from Car A and driving towards car A. Car B starts with a velocity of $42 m/s$ and has an acceleration of $$2.4 m/s^2$$. Where and when do the two cars meet.</span>
 
 
-To begin with let us solve the equation analytically. To thsi end we assume they met at postion $x$ from car A's starting point, which means $2000-x$ away from car B's starting position. The distance for both cars respectively can be calculated using:
+To begin with let us solve the equation analytically. To thsi end we assume they met at postion $x$ from car A's starting point, which means $$2000-x$$ away from car B's starting position. The distance for both cars respectively can be calculated using:
 
-Car A: $x= (0m/s)t + \frac{1}{2}(5.6)(m/s^2)t^2(s^2)$
+Car A: $$x= (0m/s)t + \frac{1}{2}(5.6)(m/s^2)t^2(s^2)$$
 
-Car B: $2000-x= (-42m/s)t + \frac{1}{2}(2.4)(m/s^2)t^2(s^2)$
+Car B: $$2000-x= (-42m/s)t + \frac{1}{2}(2.4)(m/s^2)t^2(s^2)$$
 
-Equating both equations and rearranging like terms reduces the pair of equations into the following quadratic equation: $4.0 t^2 -42t-2000=0$. Now we can solve this equation using the quadratic formula, or we can feed the formula as a code for our computer to solve it. For this post we chose the later, and we can write the code as follows
+Equating both equations and rearranging like terms reduces the pair of equations into the following quadratic equation: $$4.0 t^2 -42t-2000=0$$. Now we can solve this equation using the quadratic formula, or we can feed the formula as a code for our computer to solve it. For this post we chose the later, and we can write the code as follows
 
 
 
@@ -624,7 +624,7 @@ print(root2)
     28.21872874148676
 
 
-Looking at the times we can chose to ignore the negative time since we take $t = 0$ as our initial time, based on this information we conclude they meet around $t=28$ seconds.  
+Looking at the times we can chose to ignore the negative time since we take t = 0 as our initial time, based on this information we conclude they meet around t=28 seconds.  
 
 Now let me use motion diagram to see if we can arrive at a similar solution. All we need to do here is just plot the distance versus time graph, for both cars, and see if they interesect; and if they do at what time? 
 
@@ -768,8 +768,8 @@ The intersection time is thus about 24.6 seconds; and the meeting distance is 16
 Let add another **example** and employ the above method:
 ><span style="color:blue">A car traveling at a constant speed of 45.0 m/s passes a trooper on a motorcycle hidden behind a billboard. One second after the speeding car passes the billboard, the trooper sets out from the billboard to catch the car, accelerating at a constant rate of 3.00 m/s . How long does it take the trooper to overtake the car?</span>
 
-> Car: $xC = 45 t$  
-  Tropper: $xT = 0.5*3.0(t-1)^2$ 
+> Car: $$xC = 45 t$$  
+  Tropper: $$xT = 0.5*3.0(t-1)^2$$ 
   
 When trooper overtakes the car, the distance covered by the trooper and car. will be the same,  i.e $xC=xT$, and noting that the trooper began her journey a second later, the equations of motion takes the form: $t^2-32t+1=0$
 
