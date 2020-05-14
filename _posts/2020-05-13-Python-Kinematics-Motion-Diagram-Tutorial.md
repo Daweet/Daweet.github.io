@@ -8,7 +8,7 @@ date: 2020-05-12
 
 ### Kinematic Equation
 
-I want to introduce you in this post how we can use `python` to graph motion diagrams or plots such as *postion-time*, *velocity-time*, *acceleration-time*. Graphs are helpful in many instances, and we use them in physics more often to 'see' the result. By looking at the plots we can understand what kind of relationship exists between two parameters and/or variables. Moreover, looking-visually- at a graph makes it easy to grasp the situation and help us widen our understanding. By looking at graphs, it is easily to answer questions like: Do I have linear relationship? or quadratic? or higher order polynomial? all this can be deduced after ploting the results. For some simple forms, the graphs help us to establish equations too, thereby allowing us generalize the conclusion. 
+I want to introduce you, in this post, how you can use `python` to graph motion diagrams or plots such as *postion-time*, *velocity-time*, *acceleration-time*. Graphs are helpful in many instances, and we use them in physics more often to 'see' the result. By looking at the plots we can understand what kind of relationship exists between two parameters and/or variables. Moreover, looking-visually- at a graph makes it easy to grasp the situation and help us widen our understanding. By looking at graphs, it is easily to answer questions like: Do I have linear relationship? or quadratic? or higher order polynomial? all this can be deduced after ploting the results. For some simple forms, the graphs help us to establish equations too, thereby allowing us generalize the conclusion. 
 
 I will disscus here the simple use of Python to describe motion a system, specifically in a frictionless system, where we assume its effect is negligible, and use the plotted graph to decribe the motion and arrive at solution if need be. 
 
@@ -151,7 +151,7 @@ position_DataFrame.plot(kind='scatter',x='t (s)', y='x(m)');
 ![png](/img/2020-05-13-Python-Kinematics-Motion-Diagram-Tutorial/output_7_0.png)
 
 
-This is a very simple, straight-forward plot of the data points, and we can see from the motion diagram of $$x$$ versus $t$ that the postion starts at 30m and goes down to -53m as time proceeds, and the curve looks kind of inverted parabola.
+This is a very simple, straight-forward plot of the data points, and we can see from the motion diagram of $$x$$ versus $$t$$ that the postion starts at 30m and goes down to -53m as time proceeds, and the curve looks kind of inverted parabola.
 
 Next step is to calculate the speed from our data, and by definition $$\Delta v = \frac{\Delta x}{\Delta t}$$, where $$\Delta = Final - Initial$$. Therefore by considering each row as initial value for the next row, we can calculate the speed using the following code line.
 
@@ -405,7 +405,7 @@ position_DataFrame
 
 We have seen earilier that when your data points are taken to be few, the plot is better viewed via scatter plot as our eye connects the dot and completes the curve. But if we try to make a line plot, as we see below, the line tries to connect each data points and based on that it yields plot. 
 
-<span style="color:blue">Let us take an **example** where an object is thrown upward with an intial velocity of $20m/s$, we want to calculate the total height the object covers when t is five seconds. For this case we chose the kinematic equation with $s=h$ and $$a=g$$, to get an equation of the form $$y=y_i + v_i t - \frac{1}{2}gt^2$$, where acceleration deue to gravity is given to be $$g=9.8 \mathrm{m/s^2}$$.</span>
+<span style="color:blue">Let us take an **example** where an object is thrown upward with an intial velocity of 20m/s, we want to calculate the total height the object covers when t is five seconds. For this case we chose the kinematic equation with s=h and $$a=g$$, to get an equation of the form $$y=y_i + v_i t - \frac{1}{2}gt^2$$, where acceleration deue to gravity is given to be $$g=9.8 \mathrm{m/s^2}$$.</span>
 
 We can use the `range()` method in pandas to list five time points and form data frame, this produces a one column DataFrame, next we can add another column to the DataFrame that calculates the height (based on the above formula) and let us name this column to be 'y'. That is it we just formed a DataFrame that has time and postion as its columns. If you notice this is the same dataFrame as the one seen above. That means we can plot and see the relationship. One point worth noting is that while using the `range()` function with **start** and **stop** points, the range of integers end at **stop – 1**. Of course we could a step size, but the steps shoup be in _int_.
 
@@ -591,7 +591,7 @@ p.show()
 
 Ontop of providing a clearer picture of the situation at hand, motion diagram also help us answer questions like the following **example** without having to solve them by hand.
   
-><span style="color:blue">Car A starts from rest and has an acceleration of $$5.6 m/s^2$$. Another car Car B starts at the other end of a track such that it is 2000 meters away from Car A and driving towards car A. Car B starts with a velocity of $42 m/s$ and has an acceleration of $$2.4 m/s^2$$. Where and when do the two cars meet.</span>
+><span style="color:blue">Car A starts from rest and has an acceleration of $$5.6 m/s^2$$. Another car Car B starts at the other end of a track such that it is 2000 meters away from Car A and driving towards car A. Car B starts with a velocity of 42 m/s and has an acceleration of $$2.4 m/s^2$$. Where and when do the two cars meet.</span>
 
 
 To begin with let us solve the equation analytically. To thsi end we assume they met at postion $x$ from car A's starting point, which means $$2000-x$$ away from car B's starting position. The distance for both cars respectively can be calculated using:
@@ -771,7 +771,7 @@ Let add another **example** and employ the above method:
 > Car: $$xC = 45 t$$  
   Tropper: $$xT = 0.5*3.0(t-1)^2$$ 
   
-When trooper overtakes the car, the distance covered by the trooper and car. will be the same,  i.e $xC=xT$, and noting that the trooper began her journey a second later, the equations of motion takes the form: $t^2-32t+1=0$
+When trooper overtakes the car, the distance covered by the trooper and car. will be the same,  i.e $$xC=xT$$, and noting that the trooper began her journey a second later, the equations of motion takes the form: $$t^2-32t+1=0$$
 
 
 ```python
