@@ -15,6 +15,7 @@ $$\frac{1}{2}mv_i^2-\frac{GMm}{r_i}=\frac{1}{2}mv_f^2-\frac{GMm}{r_f}$$
 Therefore escape velocity can be calculated as
 
 $$\frac{1}{2}mv_i^2-\frac{GM_em}{R_e}=-\frac{GM_em}{r_{max}}$$  
+
 $$v_i^2=2GM_e\big(\frac{1}{R_e}-\frac{1}{r_{max}}\big)$$
 
 If it escapes it implies $$r_{max}\rightarrow\infty$$ leading to
