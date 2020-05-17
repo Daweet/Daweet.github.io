@@ -6,23 +6,26 @@ tags: [gravity, Beautiful Soup, table tag, Stacked bar plot]
 date: 2020-05-16
 ---
 
-If you want to leave Earth and fly away, you need to get rid of the influence of gravity. For that it happen you need a critical velocity with which you are able to overcome Earth's gravitational pull. In physics this velocity is called as escape velocity.  
+If you want to leave Earth and fly away, you need to get rid of the influence of gravity. For that to happen you need a critical velocity, with which you are able to overcome Earth's gravitational pull. In physics this velocity is called as escape velocity.  
 
-One way to calculate this escape velocity is using total mechanical energy. Consideration of total mechanical energy of the isolated system dictates that $$\Delta E=\Delta K + \Delta U_g=0$$. This inturn implies that $$E_i=E_f$$, recalling that Kinetic energy is $$K=\frac{1}{2}mv^2$$ and gravitational energy is given by $$U_g=-\frac{GMm}{r}$$, it then follows that.
+One way to calculate this, escape velocity, is using total mechanical energy. Consideration of total mechanical energy of the isolated system dictates that $$\Delta E=\Delta K + \Delta U_g=0$$. This inturn implies that $$E_i=E_f$$, recalling that Kinetic energy is $$K=\frac{1}{2}mv^2$$ and gravitational energy is given by $$U_g=-\frac{GMm}{r}$$, it then follows that.
 
 $$\frac{1}{2}mv_i^2-\frac{GMm}{r_i}=\frac{1}{2}mv_f^2-\frac{GMm}{r_f}$$
 
 Therefore escape velocity can be calculated as
+
 $$\frac{1}{2}mv_i^2-\frac{GM_em}{R_e}=-\frac{GM_em}{r_{max}}$$  
 $$v_i^2=2GM_e\big(\frac{1}{R_e}-\frac{1}{r_{max}}\big)$$
 
-If it escapes $$r_{max}\rightarrow\infty$$ leading to
+If it escapes it implies $$r_{max}\rightarrow\infty$$ leading to
 
 $$v_{esc}=\sqrt{\frac{2GM_e}{R_e}}$$
 
-You can see that the result is independent of the object's mass. Let us now import the necessary library and values for gravitational constant, mass of Earth, radius of Earth.
+You can see that the result is independent of the object's mass. 
 
 We can calculate the escape velocity from each of the planets in our solar system, all we need to need is plug the value of mass and radius of respective planets. Then again we can find these information from NASA's page, and as it would be fun to do so we opt to go to NASA'a page and scrap this information (and more actually). 
+
+Let us now import the necessary library and values for gravitational constant, mass of Earth, radius of Earth.
 
 
 ```python
