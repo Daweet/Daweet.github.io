@@ -56,10 +56,10 @@ Then added on
 
 Add the ff in `_config.yml`
 
-plugins:
+>plugins:
   - jekyll-seo-tag
   
   After which do 
   
-  Add the following right before </head> in your site's template(s):
+ > Add the following right before </head> in your site's template(s):
 `{% seo %}`
