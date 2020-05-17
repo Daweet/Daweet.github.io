@@ -2,7 +2,7 @@
 layout: post
 title: "Scraping NASA for Escape Velocity"
 category: Data Science, Physics
-tags: [webpage, markdown jekyll]
+tags: [gravity, Beautiful Soup, table tag, Stacked bar plot]
 date: 2020-05-16
 ---
 
