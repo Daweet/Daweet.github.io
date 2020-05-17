@@ -2499,7 +2499,7 @@ ax.set_ylabel("Mass");
 ```
 
 
-![png](output_50_0.png)
+![png](/img/Scraping NASA for Escape Velocity/output_50_0.png)
 
 
 We can see, as expected, Jupiter and Staurn are big. Because of a wide range of max and min values, values of 1 or below seems to be zero. Hard to see in this plpot, you can use ylim to need to see the results as follows 
@@ -2514,7 +2514,7 @@ ax.set_ylabel("Mass");
 ```
 
 
-![png](output_52_0.png)
+![png](/img/Scraping NASA for Escape Velocity/output_52_0.png)
 
 
 ### Escape Velocity
@@ -2527,7 +2527,7 @@ ax.set_ylabel("Escape Velocity");
 ```
 
 
-![png](output_54_0.png)
+![png](/img/Scraping NASA for Escape Velocity/output_54_0.png)
 
 
 ### Length of Day
@@ -2542,7 +2542,7 @@ ax.set_ylabel("Length of Day");
 ```
 
 
-![png](output_56_0.png)
+![png](/img/Scraping NASA for Escape Velocity/output_56_0.png)
 
 
 You can find in [How Long Is One Day on other Planets](https://spaceplace.nasa.gov/days/en/) how long each is one day in each planet. The answer is
@@ -2560,7 +2560,7 @@ ax.set_ylabel("Gravity");
 ```
 
 
-![png](output_59_0.png)
+![png](/img/Scraping NASA for Escape Velocity/output_59_0.png)
 
 
 Gravity varies depending on the size, mass and density of the planet. In our solar system we can see that gravity varies, ranging from 0.38 g on Mercury and Mars to a powerful 2.528 g Jupiter's. And on the Moon, which is our natural satellite, it is a very small 0.1654 g.
@@ -2575,7 +2575,7 @@ ax.set_ylabel("Density");
 ```
 
 
-![png](output_62_0.png)
+![png](/img/Scraping NASA for Escape Velocity/output_62_0.png)
 
 
 
@@ -2593,7 +2593,7 @@ ax.set_ylabel("Distance from Sun ");
 ```
 
 
-![png](output_65_0.png)
+![png](/img/Scraping NASA for Escape Velocity/output_65_0.png)
 
 
 ## Plot of two or more columns
@@ -2610,7 +2610,7 @@ ax.set_ylabel("Gravity, Density OR Escape Velocity");
 ```
 
 
-![png](output_67_0.png)
+![png](/img/Scraping NASA for Escape Velocity/output_67_0.png)
 
 
 ### Distance from the sun, Length of Day
@@ -2624,7 +2624,7 @@ ax.set_ylabel("Distance from Sun OR Length of Day");
 ```
 
 
-![png](output_69_0.png)
+![png](/img/Scraping NASA for Escape Velocity/output_69_0.png)
 
 
 ## Stacked columns
@@ -2638,7 +2638,7 @@ ax.set_ylabel("Physical Parameters");
 ```
 
 
-![png](output_71_0.png)
+![png](/img/Scraping NASA for Escape Velocity/output_71_0.png)
 
 
 ## Scaled Stacked Columns
@@ -2658,5 +2658,5 @@ ax.set_ylabel("Physical Parameters");
 ```
 
 
-![png](output_74_0.png)
+![png](/img/Scraping NASA for Escape Velocity/output_74_0.png)
 
