@@ -51,3 +51,15 @@ Then added on
 {% if site.google_verify %}
     <meta name="google-site-verification" content="{{ site.google_verify }}">
 {% endif %}
+
+### Installing Jekyll SEO Tag
+
+Add the ff in `_config.yml`
+
+plugins:
+  - jekyll-seo-tag
+  
+  After which do 
+  
+  Add the following right before </head> in your site's template(s):
+`{% seo %}`
