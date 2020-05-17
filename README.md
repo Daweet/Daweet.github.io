@@ -38,13 +38,15 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 
 ### Google verification
-Meta tag with a custom variable set in my _config.yml:
+Meta tag with a custom variable set in my `_config.yml`:
 
 _config.yml:
 
 google_verify: XXXXXXXXXXXXXXXX
-Then added
-default.html (default layout):
+
+Then added on
+
+`default.html (default layout):`
 
 {% if site.google_verify %}
     <meta name="google-site-verification" content="{{ site.google_verify }}">
