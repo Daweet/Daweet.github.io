@@ -18,14 +18,14 @@ a transportation tool, aka gravity train, by drilling a tunnel through
 Earth. Wouldn’t it be great to travel from one part of the world to
 other in just less than an hour? How cool would that be? Well, physics
 says, in a perfectly ideal world, it is possible to travel from one end
-to the other part of the world less than an hour.
+to the other part of the world in less than an hour.
 
 Set apart the practicality of having such transit; the idea is simple
-enough to grasp you can easily derive the equations associated with the
+enough to grasp that you can easily derive the equations associated with the
 physical quantities behind the logic. In this ’project’ gravity is the
 sole source of energy and the lead in the transportation industry. What
-is proposed in a nutshell is that: to travel from one part of the world
-to the other all we need to do is drill a tunnel that connects these two
+is proposed-- in a nutshell-- is that: to travel from one part of the world
+to the other all we need to do is: drill a tunnel that connects these two
 end points. Simple, huh! But that won’t be as easy as it sounds, for
 starter let us skip few steps ahead and think we have the capability to
 dig through the interior of the Earth which in itself is challenging.
@@ -43,7 +43,7 @@ other , one can raise questions like: would’t the temperature in the
 interior part of the Earth melt away the train itself, how would we deal
 with the effect of friction?
 
-To proceed let us imagine that we have such advanced technological
+To proceed, let us imagine that we have such advanced technological
 capability and managed to tackle every challenge facing us; after all
 this, at the end, we will be faced with geographical reality. In a real
 world situation about 71% of the Earth’s surface is covered by water.
@@ -55,7 +55,7 @@ your city chances are high that you will end up on ocean than land, i.e
 Earth’s surface.
 
 Bear in mind connecting two parts of the Earth with a tunnel that passes
-through center of the Earth is requires the length of the tunnel to be
+through center of the Earth requires the length of the tunnel to be
 the diameter of the Earth. And two diametrically opposite points in a
 sphere (or Earth in this case) what is known as **Antipodes** in
 geography and mathematics. The map on Fig. below shows
@@ -70,7 +70,7 @@ further reading.
 ![[fig:Antipodes] [Antipodes of each point on Earth’s
 surface](https://commons.wikimedia.org/w/index.php?curid=4343579.)](/img/Gravity_Train/Antipodes_LAEA.png){:height="360px" width="360px"}
 
-In case you are not into doing hand calculation to get the antipodal of
+In case you are not into doing hand calculations, to get the antipodal of
 your city, or country, here is a python library that you can make use of
 to calculate the latitude and longitude of your antipodes. Just in case
 your antipodes are land, congratulations go look for someone in the
@@ -89,7 +89,7 @@ So assuming we will overcome the technological challenges, let us now
 employ the physics. In this section we will calculate how long it takes
 for the gravity train to commute from one end to another via the center
 of the Earth. For simplicity and convenience we take the Earth’s density
-to be uniform on average. At the starting end when you enter the tunnel
+to be uniform on average. At the starting end, when you enter the tunnel
 we can calculate your acceleration due to gravity using Newton’s
 universal gravitation law as follows (recall you will be ’falling’ into
 the tunnel)
