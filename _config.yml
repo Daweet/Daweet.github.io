@@ -8,3 +8,5 @@ kramdown:
   syntax_highlighter: rouge
   extensions: fenced_code_blocks
   google-site-verification: googlefce688b2163cd376.html
+plugins:
+  - jekyll-seo-tag
