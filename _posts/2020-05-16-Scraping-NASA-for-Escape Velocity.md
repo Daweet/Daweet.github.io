@@ -1314,7 +1314,7 @@ df
 
 
 
-Although we are not going to use it in this analysis we notice that the last two rows needs further cleaning, for example we can it from category into numeric. If you want you can also strip the question mark at the end using the strip method.
+Although we are not going to use it in this analysis we notice that the last two rows needs further cleaning, for example we can chnage it from category into numeric. If you want, you can also strip the question mark at the end using the strip method.
 
 
 ```python
@@ -1912,7 +1912,7 @@ df
 
 
 
-Let us check now if everything is inorder when it comes to data types
+Let us check now if everything is in order, when it comes to data types
 
 
 ```python
@@ -2489,7 +2489,7 @@ dfT
 
 # Visualizations
 
-Now everything is inorder and as we want it to be, it will be good idea to plot and visualize the parameters. Recall this is. Below we present plots of each columns versus planets, group of parameters versus planets, and stack all the columns in one plot.   
+Now everything is inorder, and is as we want it to be, it will thus be good idea to plot and visualize the parameters.  Below we present plots of each columns versus planets, group of parameters versus planets, and stack all the columns in one plot.   
 
 The eight (spoiler alert!) planets of our Solar System vary widely, not only in terms of size, but also in terms of other parameters. 
 
@@ -2554,7 +2554,7 @@ ax.set_ylabel("Length of Day");
 You can find in [How Long Is One Day on other Planets](https://spaceplace.nasa.gov/days/en/) how long each is one day in each planet. The answer is
 > **On Mercury a day lasts 1,408 hours, and on Venus it lasts 5,832 hours. On Earth and Mars it’s very similar. Earth takes 24 hours to complete one spin, and Mars takes 25 hours. The gas giants rotate really fast. Jupiter takes just 10 hours to complete one rotation. Saturn takes 11 hours, Uranus takes 17 hours, and Neptune takes 16 hours.**
 
-You may notice that Mercury and Venus have a very long day. To make sense of it recall that a day is the amount of time it takes for a planet to completely spin around, its axis, and make one full rotation.
+You may notice that Mercury and Venus have a very long day. To make sense of it recall that a day is the amount of time it takes for a planet to completely spin around its axis, and make one full rotation.
 
 ### Gravity
 
