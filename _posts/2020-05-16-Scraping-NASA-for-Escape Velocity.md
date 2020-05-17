@@ -2660,3 +2660,4 @@ ax.set_ylabel("Physical Parameters");
 
 ![png](/img/Scraping NASA for Escape Velocity/output_74_0.png)
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
