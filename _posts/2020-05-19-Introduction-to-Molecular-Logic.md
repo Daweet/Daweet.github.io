@@ -19,7 +19,7 @@ transistors, for the progress of the industry. This trend has so far been very s
 [see Fig.1](https://humanswlord.files.wordpress.com/2014/01/moores-law-graph-gif.png);
 Intel has recently managed to produce a transistor 14nm in size.
 <figure>
-  <img src="/moloclogic/Moore.png" alt="States" style="width:60%">
+  <img src="/img/moloclogic/Moore.png" alt="States" style="width:60%">
   <figcaption>Fig.1 -Moore's law.</figcaption>
 </figure>
 The future of the computing industry depends on whether the growth rate estimated by
@@ -40,7 +40,7 @@ Automata (QCA), Single Electron Transistor (SET).
 In this post I will introduce you to an alternative approach that is set to tackle the aforementioned challenge. This route is usually referred to as molecular logic. But, of course, even within this category there are several branches depending on the input/output.  You see we can interact with molecules chemically (where we use chemical reactions as input/output for our logic), optically (where laser pulses are shone onto the quantum system), and/or electrically (such as electrical voltage in quantum dots). 
 
 <figure>
-  <img src="/moloclogic/states.png" alt="States" style="width:40%">
+  <img src="/img/moloclogic/states.png" alt="States" style="width:40%">
   <figcaption>Fig.2 - States we consider.</figcaption>
 </figure>
 
