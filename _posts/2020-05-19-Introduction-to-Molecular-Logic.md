@@ -5,7 +5,7 @@ category: physics
 tags: [computer, molecule logic, optical logic]
 date: 2020-05-19
 ---
-# Introduction to Molecular Logic: --_part I_
+
 
 ## <span style="color:blue">Introduction</span>
 
