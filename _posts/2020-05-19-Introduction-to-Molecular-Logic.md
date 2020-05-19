@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to Molecular Logic: --_part I_"
+title: "Introduction to Molecular Logic: --part I"
 category: physics
 tags: [computer, molecule logic, optical logic]
 date: 2020-05-19
