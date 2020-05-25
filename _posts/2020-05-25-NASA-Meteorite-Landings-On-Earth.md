@@ -911,11 +911,7 @@ meteor_df = meteor_df.loc[meteor_df['year'].notnull()]
 meteor_df['year'] = meteor_df['year'].astype(str)
 ```
 
-    /Users/ramlijufar/opt/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py:6: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
     
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
       
 
 
@@ -938,11 +934,7 @@ meteor_df['year'] = meteor_df['year'].apply(getYear)
 meteor_df.head()
 ```
 
-    /Users/ramlijufar/opt/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py:2: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
     
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
       
 
 
