@@ -1,4 +1,11 @@
-# NASA Earth Meteorite Landings
+---
+layout: post
+title: "NASA Earth Meteorite Landings"
+category: Data Science, Physics
+tags: [meteor, json, NASA, Geopandas]
+date: 2020-05-25
+---
+
 
 This post shows you how to merge geographic map (which we get from from json file format) and data points (in this case meteorite landings) into a single map and visualize the data.
 
@@ -1547,7 +1554,7 @@ ax.set_title("NASA Meteorite Landings", fontsize=25, fontweight=3)
 
 
 
-![png](output_54_1.png)
+![png](/img/2020-05-25-NASA-Meteorite-Landings-On-Earth/output_54_1.png)
 
 
 
