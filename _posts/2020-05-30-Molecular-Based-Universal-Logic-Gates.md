@@ -112,7 +112,11 @@ state is from which loss of population occur. For this reason the state
 is called Dark state:
 $$|\mathrm{Dark state}\rangle = \cos\theta |0\rangle -\sin\theta |2\rangle$$
 
-![png](/img/moloclogic/FSPangle.png)
+<figure>
+  <img src="/img/moloclogic/FSPangle.png" alt="States" style="width:40%">
+  <figcaption>Fig.2 - Pulse and mixing angle theta. Time is in reduced units.</figcaption>
+</figure>
+
 
 Fig.2 -Pulse and mixing angle theta. Time is in reduced units
 
