@@ -43,30 +43,31 @@ are possible.
 Fig.1 -Physical system under consideration.
 
 The system we consider is a three level system, shown in fig. (1), whose
-states are $|0\rangle , |1\rangle$ and $|2\rangle$ with energy
-$\hbar\omega_0,\hbar\omega_1,\hbar\omega_2$ respectively. Two lasers
+states are $$|0\rangle , |1\rangle$$ and $$|2\rangle$$ with energy
+$$\hbar\omega_0,\hbar\omega_1,\hbar\omega_2$$ respectively. Two lasers
 couples these three levels of the system. A pump pulse drives the
-transition between states $|0\rangle$ and $|1\rangle$. A second pulse,
-the Stokes pulse, drives the transition between $|1\rangle$ and
-$|2\rangle$. Thus we have transitions between states $|0\rangle$ and
-$|1\rangle$ , and between states $|1\rangle$ and $|2\rangle$; but no
-transition between $|0\rangle$ and $|2\rangle$, which is dipole
+transition between states $$|0\rangle$$ and $$|1\rangle$$. A second pulse,
+the Stokes pulse, drives the transition between $$|1\rangle$$ and
+$$|2\rangle$$. Thus we have transitions between states $$|0\rangle$$ and
+$$|1\rangle$$ , and between states $$|1\rangle$$ and $$|2\rangle$$; but no
+transition between $$|0\rangle$$ and $$|2\rangle$$, which is dipole
 forbidden.
 
 By preparing the system to be initially on the ground state
-$\textbar{}0\rangle $, one can transfer $100\%$ of the population to
-state $\textbar{}2\rangle $. When we say population what we refer to is
+$$\textbar{}0\rangle$$, one can transfer $$100\%$$ of the population to
+state $$\textbar{}2\rangle$$. When we say population what we refer to is
 the mean photon number. To do so we couple the states, via the pulses,
-counter intuitively, that is we first couple the states $|1\rangle$ and
-$|2\rangle$ using the Stokes pulse, and later we couple states
-$|0\rangle$ and $|1\rangle$, using pump laser. STIRAP is robust in that
-it is insensitive to the decaying intermediate state $|1\rangle$.
+counter intuitively, that is we first couple the states $$|1\rangle$$ and
+$$|2\rangle$$ using the Stokes pulse, and later we couple states
+$$|0\rangle$$ and $$|1\rangle$$, using pump laser. STIRAP is robust in that
+it is insensitive to the decaying intermediate state $$|1\rangle$$.
 
 We won’t delve into the details of the dynamics as it is not the goal of
 the post. Suffice to say that we numerically solve the time-dependent
 Schrödinger equation for the probablity amplitudes and study the
 evolution of the wave function
-$|\Psi\left(t\right)\rangle = \sum_i^{N-1} c_i\left(t\right)$
+$$|\Psi\left(t\right)\rangle = \sum_i^{N-1} c_i\left(t\right)$$
+
 $$i\hbar\frac{dc\left(t\right)}{dt} = H\left(t\right)c\left(t\right)$$
 
 It is worth recalling that for quantum systems with distinct states,
