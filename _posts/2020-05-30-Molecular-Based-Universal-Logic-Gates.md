@@ -34,8 +34,7 @@ processes. It is worth noting that all the ground three states can be
 coupled to all three excited states, and altogether, nine transitions
 are possible.
 
-![[fig:Threelevel] Physical system under
-consideration.](/img/moloclogic/threelevel)
+![png](/img/moloclogic/threelevel)
 
 Fig.1 -Physical system under consideration.
 
@@ -109,8 +108,7 @@ state is from which loss of population occur. For this reason the state
 is called Dark state:
 $$|\mathrm{Dark state}\rangle = \cos\theta |0\rangle -\sin\theta |2\rangle$$
 
-![[fig:Pulseanglel] -Pulse and mixing angle theta. Time is in reduced
-units.](/img/moloclogic/FSPangle)
+![png](/img/moloclogic/FSPangle)
 
 Fig.2 -Pulse and mixing angle theta. Time is in reduced units
 
@@ -179,9 +177,7 @@ in the truth table below.
         Table.1: Truth table of NOT gate, where n($|n\rangle$) represents n=logic assignment and
         $|n\rangle$=state of the system
 
-![[fig:STIRAP] -Population transfer with STIRAP. The horizontal-axis is
-time in reduced units
-<span>[</span>-4,4<span>]</span>..](/img/moloclogic/PopSP)
+![png](/img/moloclogic/PopSP)
 
 Fig.3 -Population transfer with STIRAP. The horizontal-axis is time in
 reduced units <span>[</span>-4,4<span>]</span>.
@@ -299,9 +295,7 @@ that the logic function of OR finds the maximum between two binary input
 digits. In like manner logic AND function finds the minimum between the
 inputs.
 
-![[fig:FSTIRAP] -Pulse STIRAP and Fractional-STIRAP The horizontal-axis
-is time in reduced units
-<span>[</span>-4,4<span>]</span>..](/img/moloclogic/FSPSPNOT)
+![png](/img/moloclogic/FSPSPNOT)
 
 Fig.4 -Pulse STIRAP and Fractional-STIRAP. The horizontal-axis is time
 in reduced units <span>[</span>-4,4<span>]</span>
