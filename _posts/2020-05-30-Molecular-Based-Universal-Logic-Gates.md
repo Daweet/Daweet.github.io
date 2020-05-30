@@ -66,7 +66,7 @@ We won’t delve into the details of the dynamics as it is not the goal of
 the post. Suffice to say that we numerically solve the time-dependent
 Schrödinger equation for the probablity amplitudes and study the
 evolution of the wave function
-$$|\Psi\left(t\right)\rangle = \sum_i^{N-1} c_i\left(t\right)$$
+$$|\Psi\left(t\right)\rangle = \sum_i^{N-1} c_i\left(t\right)|i\rangle$$
 
 $$i\hbar\frac{dc\left(t\right)}{dt} = H\left(t\right)c\left(t\right)$$
 
