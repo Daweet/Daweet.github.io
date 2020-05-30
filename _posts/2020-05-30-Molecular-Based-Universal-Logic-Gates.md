@@ -54,8 +54,8 @@ transition between $$|0\rangle$$ and $$|2\rangle$$, which is dipole
 forbidden.
 
 By preparing the system to be initially on the ground state
-$$\textbar{}0\rangle$$, one can transfer $$100\%$$ of the population to
-state $$\textbar{}2\rangle$$. When we say population what we refer to is
+$$0\rangle$$, one can transfer $$100\%$$ of the population to
+state $$2\rangle$$. When we say population what we refer to is
 the mean photon number. To do so we couple the states, via the pulses,
 counter intuitively, that is we first couple the states $$|1\rangle$$ and
 $$|2\rangle$$ using the Stokes pulse, and later we couple states
@@ -72,9 +72,9 @@ $$i\hbar\frac{dc\left(t\right)}{dt} = H\left(t\right)c\left(t\right)$$
 
 It is worth recalling that for quantum systems with distinct states,
 external perturbations can change the state of the system. The three
-states of the system, i.e. $|0\rangle , |1\rangle, |2\rangle$
+states of the system, i.e. $$|0\rangle , |1\rangle, |2\rangle$$
 respectively are the eigenstates of the unperturbed part of the
-Hamiltonian $H_0$. Whereas $H_I$ is the part of the Hamiltonian
+Hamiltonian $$H_0$$. Whereas $$H_I$$ is the part of the Hamiltonian
 representing the interaction of the system with the laser field.
 Therefore, the total
 [Hamiltonian](https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)),
@@ -90,10 +90,10 @@ $$H=\frac{\hbar}{2}\begin{bmatrix}
 0 & \Omega_s\left(t\right) & 0
 \end{bmatrix}$$
 
-The [Unitary](https://en.wikipedia.org/wiki/Rotation_matrix) matrix $U$
-diagonalises the Hamiltonian into $D = U^\dagger HU$ which is [Adiabatic
+The [Unitary](https://en.wikipedia.org/wiki/Rotation_matrix) matrix $$U$$
+diagonalises the Hamiltonian into $$D = U^\dagger HU$$ which is [Adiabatic
 diagonal Hamiltonian](https://en.wikipedia.org/wiki/Adiabatic_theorem).
-Where the transformation matrix $U$ is given by
+Where the transformation matrix $$U$$ is given by
 
 $$U=\begin{bmatrix} 
 \sin\phi\sin\theta & \cos\phi & \sin\phi\cos\theta\\
@@ -105,10 +105,10 @@ Moving into adiabatic basis requires mixing angle
 $$\tan\theta = \frac{\Omega_p\left(t\right)}{\Omega_s\left(t\right)}$$
 
 One of the adiabatic basis is of interest to us regarding to population
-transfer, this is because it links the two ground states $|0\rangle$ and
-$|2\rangle$, that means we can use it as a *railroad* to transfer
+transfer, this is because it links the two ground states $$|0\rangle$$ and
+$$|2\rangle$$, that means we can use it as a *railroad* to transfer
 populations from one state to the other. As this basis doesn’t include
-the component from the excited state $|1\rangle$, and note that this
+the component from the excited state $$|1\rangle$$, and note that this
 state is from which loss of population occur. For this reason the state
 is called Dark state:
 $$|\mathrm{Dark state}\rangle = \cos\theta |0\rangle -\sin\theta |2\rangle$$
@@ -125,33 +125,33 @@ Stimulated Raman adiabatic passage
 [(STIRAP)](https://en.wikipedia.org/wiki/Stimulated_Raman_adiabatic_passage)
 is a protocol by which we are able to transfer population between two
 quantum states using coherent electromagnetic (light) pulses. In our
-case, the three level $\Lambda$-system shown in fig. 1, the two coupling
+case, the three level $$\Lambda$$-system shown in fig. 1, the two coupling
 laser pulses drive the transitions.
 
 Let us say, initially we prepare all the populations to be in the ground
-state $|0\rangle$, and if our goal is to transfer all this populations
-into state $|2\rangle$ we demand our wavefunction
-$|\Psi\left(t\right)\rangle$ to align with the dark state. Moreover the
-dark state has to be aligned initially with state $|0\rangle$ and
-finally with $|2\rangle$. We can see that this implies initially
-$\cos\theta\rightarrow1$ and $\sin\theta\rightarrow0$ (or initially
-$\theta=0$); after the pulse interacts with the system, that is finally,
-$\cos\theta\rightarrow0$ and $\sin\theta\rightarrow1$ (or finally
-$\theta=\pi/2$). Thus from the definition of the mixing angles, i.e
-$\tan\theta=\frac{\Omega_p}{\Omega_s}$ we infer that we first shine the
+state $$|0\rangle$$, and if our goal is to transfer all this populations
+into state $$|2\rangle$$ we demand our wavefunction
+$$|\Psi\left(t\right)\rangle$$ to align with the dark state. Moreover the
+dark state has to be aligned initially with state $$|0\rangle$$ and
+finally with $$|2\rangle$$. We can see that this implies initially
+$$\cos\theta\rightarrow1$$ and $$\sin\theta\rightarrow0$$ (or initially
+$$\theta=0$$); after the pulse interacts with the system, that is finally,
+$$\cos\theta\rightarrow0$$ and $$\sin\theta\rightarrow1$$ (or finally
+$$\theta=\pi/2$$). Thus from the definition of the mixing angles, i.e
+$$\tan\theta=\frac{\Omega_p}{\Omega_s}$$ we infer that we first shine the
 stokes laser that couples the two empty states
-$|1\rangle\leftrightarrow|2\rangle$ and at a later time shine the pump
+$$|1\rangle\leftrightarrow|2\rangle$$ and at a later time shine the pump
 light that couples the initial state to the intermediate state, i.e
-$|0\rangle\leftrightarrow|1\rangle$. Thi kind of pulse protocol is seen
+$$|0\rangle\leftrightarrow|1\rangle$$. Thi kind of pulse protocol is seen
 on fig. 4, the second pulse sequence, in the figure, is STIRAP.
 
 If on the other hand, instead of transferring all the population, we
 chose to distribute the population between the ground states, let us say
 half-half. Then, consequently, we need the dark state to initially align
-with ground state $|0\rangle$ (like STIRAP), then later we want the dark
+with ground state $$|0\rangle$$ (like STIRAP), then later we want the dark
 state to consist of contributions from both ground states, in this case
 equal contribution. Mathematically put the conditions are: initially
-$\theta=0$ and finally $\theta=\pi/4$, as shown in fig 2. This variant
+$$\theta=0$$ and finally $$\theta=\pi/4$$, as shown in fig 2. This variant
 of STIRAP is commonly known as Fractional-STIRSAP (FSTIRAP for short).
 
 The Logic NOT Gate is the most basic of the logical gates and is often
@@ -162,30 +162,30 @@ readily implements this logic gate. To show so, we need to define our
 input and output line in the physical system we are considering. The
 physics tells us that we can transfer all the population from the ground
 state into the excited state. If all the populations are on the ground
-state $|0\rangle$ the scheme transfers it to state $|1\rangle$. If on
+state $$|0\rangle$$ the scheme transfers it to state $$|1\rangle$$. If on
 the other hand all the populations are prepared to be on state
-$|1\rangle$ the STIRAP mechanism transfers it to state $|0\rangle$. This
+$$|1\rangle$$ the STIRAP mechanism transfers it to state $$|0\rangle$$. This
 dynamics seems to mimic the NOT logic Gate. The dynamics, which we get
 by solving the time dependent Schrödinger equation, representing the
 first row in the table 1, is shown in fig. 3.
 
 The input and output will be reading the populations, i.e initial state
 and final state respectively. The logic assignment is as follows: if the
-population is in state $|0\rangle$ the corresponding logic is logic
-value **0**, and if the population is in state $|2\rangle$ the
+population is in state $$|0\rangle$$ the corresponding logic is logic
+value **0**, and if the population is in state $$|2\rangle$$ the
 corresponding logic is logic value **1**. Therefore if we initially
-prepare the system to be on the ground state $|0\rangle$ (i.e. logic
+prepare the system to be on the ground state $$|0\rangle$$ (i.e. logic
 value **0**), then applying the STIRAP process takes all the population
-into state $|2\rangle$ (i.e. logic value **1**), and vice versa as shown
+into state $$|2\rangle$$ (i.e. logic value **1**), and vice versa as shown
 in the truth table below.
 
 | Input  <br/>    Intial state| Output <br/>  Final state            |
 |-------------|:-------------:|
-| **0**  ($|0\rangle$)            |     **1**   ($|1\rangle$)        | 
-| **1**  ($|1\rangle$)            |     **0**   ($|0\rangle$)        |
+| **0**  ($$|0\rangle$$)            |     **1**   ($$|1\rangle$$)        | 
+| **1**  ($$|1\rangle$$)            |     **0**   ($$|0\rangle$$)        |
 
-        Table.1: Truth table of NOT gate, where n($|n\rangle$) represents n=logic assignment and
-        $|n\rangle$=state of the system
+        Table.1: Truth table of NOT gate, where n($$|n\rangle$$) represents n=logic assignment and
+        $$|n\rangle$$=state of the system
 
 
 ![png](/img/moloclogic/PopSP.png)
@@ -238,14 +238,14 @@ Pump. The corresponding logic assignmnet will be the **ON** and **OFF**
 of these pulses, i.e. if pulse is turned **ON** the logic assignmnet is
 logic value **1**, if the pulse is turned **OFF** logic assignmnet will
 be **0**, see truth table 2. For the output we read the population on
-state $|2\rangle$, provided we prepare the system to be intially in
-state $|0\rangle$. Hence, if we have populations on that target state
-$|2\rangle$, then the output is logic value **1**, else it is **0**.
+state $$|2\rangle$$, provided we prepare the system to be intially in
+state $$|0\rangle$$. Hence, if we have populations on that target state
+$$|2\rangle$$, then the output is logic value **1**, else it is **0**.
 
 The physics of this means that if both pulses are turned **OFF**
 (i.e. 00), nothing happens and we don’t read output and thus (0)
 -representing row one of the truth table. If pulse pump is turned **ON**
-but pulse Stokes is **OFF** (i.e. 01), state $|2\rangle$ is disconneted
+but pulse Stokes is **OFF** (i.e. 01), state $$|2\rangle$$ is disconneted
 and thus not enough population can be read so we will assign it logic
 value **0** -as indicated in row two of the truth table. By the same
 token one can reproduce row three of the truth table, (i.e. 10). If both
@@ -321,9 +321,9 @@ pulse profile or FSTIRAP (FSP) pulse profile, yielding 4 input possible
 combinations. We assign logic **0**, when we apply the SP pulse and
 logic **1** for FSP pulse profile. Because we have two inputs (the pulse
 sequence), and because each can be either **0** or **1**, we have
-$2^2=4$ possible combination of inputs as seen in the truth table. Once
+$$2^2=4$$ possible combination of inputs as seen in the truth table. Once
 again, the system is initially prepared to be on the ground state
-$|0\rangle$, we apply the first pulse profile, and wait some time $t_1$
+$|0\rangle$, we apply the first pulse profile, and wait some time $$t_1$$
 before applying the second pulse profile. As our output we follow the
 evolution of the observable vector at each stage (before, during, and
 after pulse is applied). But for the purpose of logic we don’t use the
@@ -341,24 +341,24 @@ to make connection between these evolution paths and an OR logic gate.
 
 The two sequential pulses are our two inputs. The inputs for the third
 row is shown in fig. 4. As our output we read the population on state
-$|2\rangle$. We set a threshold for the population, that is if the
-readings on the populations on state $|2\rangle$ are equal to or greater
+$$|2\rangle$$. We set a threshold for the population, that is if the
+readings on the populations on state $$|2\rangle$$ are equal to or greater
 than 0.35 the logic assignmnet will be logic value **1**, else it is
 **0**.
 
 As in previous cases we now also assume initially the populations are
-preparaed to be on state $|0\rangle$. The application of the first
-**SP** pulse will transfer all the population onto state $|2\rangle$. If
+preparaed to be on state $$|0\rangle$$. The application of the first
+**SP** pulse will transfer all the population onto state $$|2\rangle$$. If
 we apply a second sequence of **SP** pulse it brings all the populations
-back to state $|0\rangle$ – this phenomenon is represenetd in the first
+back to state $$|0\rangle$$ – this phenomenon is represenetd in the first
 row of the truth table in table 3. If, on the other hand, the second
 pulse sequence is of **FSP** scheme, then it will distribute the
-population between states $|0\rangle$ and $|2\rangle$. As we still have
-readings of population on state $|2\rangle$ thus the output is logic
+population between states $$|0\rangle$$ and $$|2\rangle$$. As we still have
+readings of population on state $$|2\rangle$$ thus the output is logic
 value **1**; this process is exhibted on row 2 of the truth table. The
 third and fourth rows consists at least one of the pulse sequence to be
-FSP ensuring the creation of superposition between states $|0\rangle$
-and $|2\rangle$, thereby allowing population on state $|2\rangle$.
+FSP ensuring the creation of superposition between states $$|0\rangle$$
+and $$|2\rangle$$, thereby allowing population on state $$|2\rangle$$.
 
 ### Python program to illustrate logic OR gate 
 
