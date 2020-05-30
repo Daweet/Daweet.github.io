@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Molecular Based Universal Logic Gates"
+category: Data Science, Physics
+tags: [Molecular logic, physics, universal gate, laser-matter]
+date: 2020-05-30
+---
 # Molecular Based Universal Logic Gates
 
 This post is a continuation of my blog [Introduction-to-Molecular-Logic](https://daweet.github.io/blog/2020/05/19/Introduction-to-Molecular-Logic). We discussed there the various physical states upon which we can send a perturbation field thereby access quantum states ready to implement logic operations. Now let us focus our attention to one of this varities and see the implementation of ***Universal Logic Gates***. To begin with, in this context, by Universal Logic Gates what we mean is the existing of full set of logic gates with which it is possible to implement all of the possible Boolean switching functions. 
@@ -7,7 +14,7 @@ The full set of logics gates considered are **AND**, **OR**, and **NOT**. By usi
 We consider an adiabatic population transfer in solids, specifically speaking on Rare-Earth-metal ions doped in solids. Rare-earth ions doped into inorganic crystal; exhibit optical transitions that do not occur in free ions. These are due to the interaction of the ions with the crystal field. The Energy level is shown in Fig. 1. The benefit of using [Rare-Earth](https://en.wikipedia.org/wiki/Rare-earth_element) material is that: they exhibit sharp optical transitions and long decoherence times. This in turn facilitates the implementation of coherent adiabatic processes. It is worth noting that all the ground three states can be coupled to all three excited states, and altogether, nine transitions are possible.
 
 <figure>
-  <img src="moloclogic/Threelevel.png" alt="States" style="width:60%">
+  <img src="/img/moloclogic/Threelevel.png" alt="States" style="width:60%">
   <figcaption>Fig.1 -Physical system under consideration.</figcaption>
 </figure>
 
@@ -41,7 +48,7 @@ Moving into adiabatic basis requires mixing angle $$\tan\theta = \frac{\Omega_p\
 One of the adiabatic basis is of interest to us regarding to population transfer, this is because it links the two ground states $|0\rangle$ and $|2\rangle$, that means we can use it as a _railroad_ to transfer populations from one state to the other. As this basis doesn't include the component from the excited state $|1\rangle$, and note that this state is from which loss of population occur. For this reason the state is called Dark state:  $$|\mathrm{Dark state}\rangle = \cos\theta |0\rangle -\sin\theta |2\rangle $$
 
 <figure>
-  <img src="moloclogic/FSPangle.png" alt="States" style="width:60%">
+  <img src="/img/moloclogic/FSPangle.png" alt="States" style="width:60%">
   <figcaption>Fig.2 -Pulse and mixing angle theta. Time is in reduced units</figcaption>
 </figure>
 
@@ -69,7 +76,7 @@ The input and output will be reading the populations, i.e initial state and fina
 
 
 <figure>
-  <img src="moloclogic/PopSP.png" alt="States" style="width:40%">
+  <img src="/img/moloclogic/PopSP.png" alt="States" style="width:40%">
   <figcaption>Fig.3 -Population transfer with STIRAP. The horizontal-axis is time in reduced units [-4,4].</figcaption>
 </figure>
 
@@ -163,7 +170,7 @@ if __name__=='__main__':
 The OR gate is a digital logic gate that implements logical [disjunction](https://en.wikipedia.org/wiki/OR_gate). A TRUE output (1) results if one or both the inputs to the gate are TRUE (1). If neither input is TRUE, a FASLE output (0) results. It is also worth mentioning that the logic function of OR finds the maximum between two binary input digits. In like manner logic AND function finds the minimum between the inputs.
 
 <figure>
-  <img src="moloclogic/FSPSPNOT.png" alt="States" style="width:40%">
+  <img src="/img/moloclogic/FSPSPNOT.png" alt="States" style="width:40%">
   <figcaption>Fig.4 -Pulse STIRAP and Fractional-STIRAP. The horizontal-axis is time in reduced units [-4,4]</figcaption>
 </figure>
 
@@ -229,3 +236,4 @@ Several challenges can be mentioned for the realization of such logic gates. One
 ```python
 
 ```
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
