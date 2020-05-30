@@ -68,8 +68,8 @@ The input and output will be reading the populations, i.e initial state and fina
 
 | Input  <br/>    Intial state| Output <br/>  Final state            |
 |-------------|:-------------:|
-| **0**  ($|0\rangle$)            |     **1**   ($|1\rangle$)        | 
-| **1**  ($|1\rangle$)            |     **0**   ($|0\rangle$)        |
+| **0**  (state 0)            |     **1**   (state 2)        | 
+| **1**  (state 2)            |     **0**   (state 0)        |
 
         Table.1: Truth table of NOT gate, where n($|n\rangle$) represents n=logic assignment and
         $|n\rangle$=state of the system
@@ -118,7 +118,7 @@ In our physical system, the implementation of an AND gate can be achived by re d
 
 The physics of this means that if both pulses are turned **OFF** (i.e. 00), nothing happens and we don't read output and thus (0) -representing row one of the truth table. If pulse pump is turned **ON** but pulse Stokes is **OFF** (i.e. 01), state $|2\rangle$ is disconneted and thus not enough population can be read so we will assign it logic value **0** -as indicated in row two of the truth table. By the same token one can reproduce row three of the truth table, (i.e. 10). If both pulses are **ON** (i.e.) the STIRAP mechanism will manage to transfer population from intial state to the target, thus logic value **1** --yielding the fourth row of the truth table. This completes the implementation of an AND gate using the physics of state-to-state coherent transfer.
 
-| Input_1 <br/> Stokes      | Input_2 <br/> Pump          | Output <br/> state 2  |
+| Input_1 (Stokes)      | Input_2 ( Pump)          | Output ( state 2)  |
 |-------------|:-------------:|----------|
 | 0           |     0         |   0      |
 | 0           |     1         |   0      |
@@ -179,7 +179,7 @@ We now use pulse sequence of two laser pulse, each can be of STIRAP (SP) pulse p
 ground state $|0\rangle$, we apply the first pulse profile, and wait some time $t_1$ before applying
 the second pulse profile. As our output we follow the evolution of the observable vector at each stage (before, during, and after pulse is applied). But for the purpose of logic we don’t use the observables' evolution during the interaction of the system with the pulses. We will follow the evolution of the observable vector before and after the system interacts with each laser pulse profile. It is our aim to make connection between these evolution paths and an OR logic gate.
 
-| Input_1 <br/> Pulse_1          | Input_2 <br/> Pulse_2           | Output <br/> Population <br/> on state 2   |
+| Input_1 (Pulse_1)          | Input_2 (Pulse_2)           | Output ( Population  on state 2)   |
 |-------------|:-------------:|----------|
 | 0           |     0         |   0      |
 | 0           |     1         |   1      |
