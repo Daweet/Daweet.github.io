@@ -34,7 +34,7 @@ processes. It is worth noting that all the ground three states can be
 coupled to all three excited states, and altogether, nine transitions
 are possible.
 
-![png](/img/moloclogic/threelevel)
+![png](/img/moloclogic/threelevel.png)
 
 Fig.1 -Physical system under consideration.
 
@@ -108,7 +108,7 @@ state is from which loss of population occur. For this reason the state
 is called Dark state:
 $$|\mathrm{Dark state}\rangle = \cos\theta |0\rangle -\sin\theta |2\rangle$$
 
-![png](/img/moloclogic/FSPangle)
+![png](/img/moloclogic/FSPangle.png)
 
 Fig.2 -Pulse and mixing angle theta. Time is in reduced units
 
@@ -170,38 +170,42 @@ value **0**), then applying the STIRAP process takes all the population
 into state $|2\rangle$ (i.e. logic value **1**), and vice versa as shown
 in the truth table below.
 
-[]<span>@lc@</span> Input Intial state & Output Final state**0**
-($|0\rangle$) & **1** ($|1\rangle$)**1** ($|1\rangle$) & **0**
-($|0\rangle$)
+| Input  <br/>    Intial state| Output <br/>  Final state            |
+|-------------|:-------------:|
+| **0**  ($|0\rangle$)            |     **1**   ($|1\rangle$)        | 
+| **1**  ($|1\rangle$)            |     **0**   ($|0\rangle$)        |
 
         Table.1: Truth table of NOT gate, where n($|n\rangle$) represents n=logic assignment and
         $|n\rangle$=state of the system
 
-![png](/img/moloclogic/PopSP)
+
+![png](/img/moloclogic/PopSP.png)
 
 Fig.3 -Population transfer with STIRAP. The horizontal-axis is time in
 reduced units <span>[</span>-4,4<span>]</span>.
 
-[breakable, size=fbox, boxrule=1pt, pad at
-break\*=1mm,colback=cellbackground, colframe=cellborder]
+### Python program to illustrate logic NOT gate 
 
-    \PY{c+c1}{\PYZsh{} Python program to illustrate logic NOT gate }
-      
-    \PY{k}{def} \PY{n+nf}{NOT}\PY{p}{(}\PY{n}{Input}\PY{p}{)}\PY{p}{:} 
-        \PY{k}{if}\PY{p}{(}\PY{n}{Input} \PY{o}{==} \PY{l+m+mi}{0}\PY{p}{)}\PY{p}{:} 
-            \PY{k}{return} \PY{l+m+mi}{1}
-        \PY{k}{elif}\PY{p}{(} \PY{n}{Input} \PY{o}{==} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{:} 
-            \PY{k}{return} \PY{l+m+mi}{0}
 
-    \PY{k}{if} \PY{n+nv+vm}{\PYZus{}\PYZus{}name\PYZus{}\PYZus{}}\PY{o}{==}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}\PYZus{}main\PYZus{}\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} 
-        
-      
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ ================}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | Input |Output|}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ ================}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | 0     | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{NOT}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{)}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}  
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | 1     | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{NOT}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ ================}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}  
+```python
+# Python program to illustrate logic NOT gate 
+  
+def NOT(Input): 
+    if(Input == 0): 
+        return 1
+    elif( Input == 1): 
+        return 0
+
+if __name__=='__main__': 
+    
+  
+    print(" ================") 
+    print(" | Input |Output|") 
+    print(" ================") 
+    print(" | 0     | ",NOT(0),"  | ")  
+    print(" | 1     | ",NOT(1),"  | ")
+    print(" ================")  
+```
 
     ================
      | Input |Output|
@@ -242,8 +246,12 @@ population from intial state to the target, thus logic value **1**
 implementation of an AND gate using the physics of state-to-state
 coherent transfer.
 
-[]<span>@lcl@</span> Input\_1 (Stokes) & Input\_2 (Pump) & Output (state
-2)0 & 0 & 00 & 1 & 01 & 0 & 01 & 1 & 1
+| Input_1 <br/> Stokes      | Input_2 <br/> Pump          | Output <br/> state 2  |
+|-------------|:-------------:|----------|
+| 0           |     0         |   0      |
+| 0           |     1         |   0      |
+| 1           |     0         |   0      |
+| 1           |     1         |   1      |
 
                            Table 2: Truth table of an AND gate
                            
@@ -253,29 +261,28 @@ By cascading an AND gate with NOT we readily get NAND gate. Moreover, if
 we are able to implement an OR logic– as shown below. It provides an
 opportunity to concatenate it with a NOT gate and design a NOR gate.
 
-[breakable, size=fbox, boxrule=1pt, pad at
-break\*=1mm,colback=cellbackground, colframe=cellborder]
-
-    \PY{c+c1}{\PYZsh{} Python program to illustrate logic AND gate }
-      
-    \PY{k}{def} \PY{n+nf}{AND}\PY{p}{(}\PY{n}{input\PYZus{}1}\PY{p}{,} \PY{n}{input\PYZus{}2}\PY{p}{)}\PY{p}{:} 
-      
-        \PY{k}{if} \PY{n}{input\PYZus{}1} \PY{o}{==} \PY{l+m+mi}{1} \PY{o+ow}{and} \PY{n}{input\PYZus{}2} \PY{o}{==} \PY{l+m+mi}{1}\PY{p}{:} 
-            \PY{k}{return} \PY{l+m+mi}{1}
-        \PY{k}{else}\PY{p}{:} 
-            \PY{k}{return} \PY{l+m+mi}{0}
-        
-    \PY{k}{if} \PY{n+nv+vm}{\PYZus{}\PYZus{}name\PYZus{}\PYZus{}}\PY{o}{==}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}\PYZus{}main\PYZus{}\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} 
-        
-      
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ =================}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | Inputs |Output|}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ =================}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | 0,  0  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{AND}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{)}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | 0,  1  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{AND}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | 1,  0  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{AND}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{)}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | 1,  1  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{AND}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ =================}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
+```python
+# Python program to illustrate logic AND gate 
+  
+def AND(input_1, input_2): 
+  
+    if input_1 == 1 and input_2 == 1: 
+        return 1
+    else: 
+        return 0
+    
+if __name__=='__main__': 
+    
+  
+    print(" =================") 
+    print(" | Inputs |Output|") 
+    print(" =================") 
+    print(" | 0,  0  | ",AND(0,0),"  | ") 
+    print(" | 0,  1  | ",AND(0,1),"  | ") 
+    print(" | 1,  0  | ",AND(1,0),"  | ") 
+    print(" | 1,  1  | ",AND(1,1),"  | ")
+    print(" =================") 
+```
 
     =================
      | Inputs |Output|
@@ -295,7 +302,7 @@ that the logic function of OR finds the maximum between two binary input
 digits. In like manner logic AND function finds the minimum between the
 inputs.
 
-![png](/img/moloclogic/FSPSPNOT)
+![png](/img/moloclogic/FSPSPNOT.png)
 
 Fig.4 -Pulse STIRAP and Fractional-STIRAP. The horizontal-axis is time
 in reduced units <span>[</span>-4,4<span>]</span>
@@ -316,8 +323,12 @@ pulses. We will follow the evolution of the observable vector before and
 after the system interacts with each laser pulse profile. It is our aim
 to make connection between these evolution paths and an OR logic gate.
 
-[]<span>@lcl@</span> Input\_1 (Pulse\_1) & Input\_2 (Pulse\_2 )& Output
-(Population on state 2)0 & 0 & 00 & 1 & 11 & 0 & 11 & 1 & 1
+| Input_1 <br/> Pulse_1          | Input_2 <br/> Pulse_2           | Output <br/> Population <br/> on state 2   |
+|-------------|:-------------:|----------|
+| 0           |     0         |   0      |
+| 0           |     1         |   1      |
+| 1           |     0         |   1      |
+| 1           |     1         |   1      |
 
 The two sequential pulses are our two inputs. The inputs for the third
 row is shown in fig. 4. As our output we read the population on state
@@ -340,30 +351,33 @@ third and fourth rows consists at least one of the pulse sequence to be
 FSP ensuring the creation of superposition between states $|0\rangle$
 and $|2\rangle$, thereby allowing population on state $|2\rangle$.
 
-[breakable, size=fbox, boxrule=1pt, pad at
-break\*=1mm,colback=cellbackground, colframe=cellborder]
+### Python program to illustrate logic OR gate 
 
-    \PY{c+c1}{\PYZsh{} Python program to illustrate logic OR gate }
-      
-    \PY{k}{def} \PY{n+nf}{OR}\PY{p}{(}\PY{n}{input\PYZus{}1}\PY{p}{,} \PY{n}{input\PYZus{}2}\PY{p}{)}\PY{p}{:} 
-        \PY{k}{if} \PY{n}{input\PYZus{}1} \PY{o}{==} \PY{l+m+mi}{1}\PY{p}{:} 
-            \PY{k}{return} \PY{l+m+mi}{1}
-        \PY{k}{elif} \PY{n}{input\PYZus{}2} \PY{o}{==} \PY{l+m+mi}{1}\PY{p}{:} 
-            \PY{k}{return} \PY{l+m+mi}{1}
-        \PY{k}{else}\PY{p}{:} 
-            \PY{k}{return} \PY{l+m+mi}{0}
-        
-    \PY{k}{if} \PY{n+nv+vm}{\PYZus{}\PYZus{}name\PYZus{}\PYZus{}}\PY{o}{==}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}\PYZus{}main\PYZus{}\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} 
-        
-      
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ =================}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | Inputs |Output|}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ =================}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | 0,  0  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{OR}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{)}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | 0,  1  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{OR}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | 1,  0  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{OR}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{)}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ | 1,  1  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n}{OR}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{  | }\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ =================}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
+
+```python
+# Python program to illustrate logic OR gate 
+  
+def OR(input_1, input_2): 
+    if input_1 == 1: 
+        return 1
+    elif input_2 == 1: 
+        return 1
+    else: 
+        return 0
+    
+if __name__=='__main__': 
+    
+  
+    print(" =================") 
+    print(" | Inputs |Output|") 
+    print(" =================") 
+    print(" | 0,  0  | ",OR(0,0),"  | ") 
+    print(" | 0,  1  | ",OR(0,1),"  | ") 
+    print(" | 1,  0  | ",OR(1,0),"  | ") 
+    print(" | 1,  1  | ",OR(1,1),"  | ")
+    print(" =================") 
+
+```
 
     =================
      | Inputs |Output|
