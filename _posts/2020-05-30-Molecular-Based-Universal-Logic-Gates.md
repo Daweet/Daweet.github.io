@@ -54,7 +54,7 @@ transition between $$|0\rangle$$ and $$|2\rangle$$, which is dipole
 forbidden.
 
 By preparing the system to be initially on the ground state
-$$0\rangle$$, one can transfer $$100\%$$ of the population to
+$$|0\rangle$$, one can transfer $$100\%$$ of the population to
 state $$2\rangle$$. When we say population what we refer to is
 the mean photon number. To do so we couple the states, via the pulses,
 counter intuitively, that is we first couple the states $$|1\rangle$$ and
