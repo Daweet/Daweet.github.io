@@ -34,7 +34,11 @@ processes. It is worth noting that all the ground three states can be
 coupled to all three excited states, and altogether, nine transitions
 are possible.
 
-![png](/img/moloclogic/threelevel.png)
+<figure>
+  <img src="/img/moloclogic/Threelevel.png" alt="States" style="width:60%">
+  <figcaption>Fig.1 -Physical system under consideration.</figcaption>
+</figure>
+
 
 Fig.1 -Physical system under consideration.
 
