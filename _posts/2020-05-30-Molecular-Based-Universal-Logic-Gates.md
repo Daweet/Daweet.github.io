@@ -17,7 +17,7 @@ We consider an adiabatic population transfer in solids, specifically speaking on
   <figcaption>Fig.1 -Physical system under consideration.</figcaption>
 </figure>
 
-The system we consider is a three level system, shown in fig. (1), whose states are $|0\rangle , |1\rangle$ and $|2\rangle$ with energy $\hbar\omega_0,\hbar\omega_1,\hbar\omega_2$ respectively. Two lasers couples these three levels of the system. A pump pulse drives the transition between states $|0\rangle$ and $|1\rangle$. A second pulse, the Stokes pulse, drives the transition between $|1\rangle$ and $|2\rangle$. Thus we have transitions between states $|0\rangle$ and $|1\rangle$ , and between states $|1\rangle$ and $|2\rangle$; but no transition between $|0\rangle$ and $|2\rangle$, which is dipole forbidden.
+The system we consider is a three level system, shown in fig. (1), whose states are $$|0\rangle$$ , $$|1\rangle$$ and $$|2\rangle$$ with energy $$\hbar\omega_0$$, $$\hbar\omega_1$$, $$\hbar\omega_2$$ respectively. Two lasers couples these three levels of the system. A pump pulse drives the transition between states $$|0\rangle$$ and $$|1\rangle$$. A second pulse, the Stokes pulse, drives the transition between $$|1\rangle$$ and $$|2\rangle$$ . Thus we have transitions between states $$|0\rangle$$  and $$|1\rangle$$, and between states $$|1\rangle$$ and $$|2\rangle$$ ; but no transition between $$|0\rangle$$ and $$|2\rangle$$ , which is dipole forbidden.
 
 ## Dynamics
 
