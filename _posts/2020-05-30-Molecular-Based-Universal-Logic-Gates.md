@@ -113,7 +113,7 @@ is called Dark state:
 $$|\mathrm{Dark state}\rangle = \cos\theta |0\rangle -\sin\theta |2\rangle$$
 
 <figure>
-  <img src="/img/moloclogic/FSPangle.png" alt="States" style="width:30%">
+  <img src="/img/moloclogic/FSPangle.png" alt="States" style="width:40%">
   <figcaption>Fig.2 - Pulse and mixing angle theta. Time is in reduced units.</figcaption>
 </figure>
 
