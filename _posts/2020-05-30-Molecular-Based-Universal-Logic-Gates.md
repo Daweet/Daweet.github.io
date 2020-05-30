@@ -40,7 +40,7 @@ are possible.
 </figure>
 
 
-Fig.1 -Physical system under consideration.
+
 
 The system we consider is a three level system, shown in fig. (1), whose
 states are $$|0\rangle , |1\rangle$$ and $$|2\rangle$$ with energy
@@ -119,7 +119,7 @@ $$|\mathrm{Dark state}\rangle = \cos\theta |0\rangle -\sin\theta |2\rangle$$
 </figure>
 
 
-Fig.2 -Pulse and mixing angle theta. Time is in reduced units
+
 
 Stimulated Raman adiabatic passage
 [(STIRAP)](https://en.wikipedia.org/wiki/Stimulated_Raman_adiabatic_passage)
@@ -181,8 +181,8 @@ in the truth table below.
 
 | Input  <br/>    Intial state| Output <br/>  Final state            |
 |-------------|:-------------:|
-| **0**  ($$|0\rangle$$)            |     **1**   ($$|1\rangle$$)        | 
-| **1**  ($$|1\rangle$$)            |     **0**   ($$|0\rangle$$)        |
+| **0**  (state 0)            |     **1**   (state 1)        | 
+| **1**  (state 1)            |     **0**   (state 0)        |
 
         Table.1: Truth table of NOT gate, where n($$|n\rangle$$) represents n=logic assignment and
         $$|n\rangle$$=state of the system
@@ -323,7 +323,7 @@ logic **1** for FSP pulse profile. Because we have two inputs (the pulse
 sequence), and because each can be either **0** or **1**, we have
 $$2^2=4$$ possible combination of inputs as seen in the truth table. Once
 again, the system is initially prepared to be on the ground state
-$|0\rangle$, we apply the first pulse profile, and wait some time $$t_1$$
+$$|0\rangle$$, we apply the first pulse profile, and wait some time $$t_1$$
 before applying the second pulse profile. As our output we follow the
 evolution of the observable vector at each stage (before, during, and
 after pulse is applied). But for the purpose of logic we don’t use the
