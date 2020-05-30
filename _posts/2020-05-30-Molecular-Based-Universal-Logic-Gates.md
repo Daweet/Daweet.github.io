@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Molecular Based Universal Logic Gates"
+category:  Physics
+tags: [quantum, universal logic, light-matter, molecular computer]
+date: 2020-05-30
+---
 This post is a continuation of my blog
 [Introduction-to-Molecular-Logic](https://daweet.github.io/blog/2020/05/19/Introduction-to-Molecular-Logic).
 We discussed there the various physical states upon which we can send a
@@ -28,7 +35,7 @@ coupled to all three excited states, and altogether, nine transitions
 are possible.
 
 ![[fig:Threelevel] Physical system under
-consideration.](moloclogic/threelevel)
+consideration.](/img/moloclogic/threelevel)
 
 Fig.1 -Physical system under consideration.
 
@@ -103,7 +110,7 @@ is called Dark state:
 $$|\mathrm{Dark state}\rangle = \cos\theta |0\rangle -\sin\theta |2\rangle$$
 
 ![[fig:Pulseanglel] -Pulse and mixing angle theta. Time is in reduced
-units.](moloclogic/FSPangle)
+units.](/img/moloclogic/FSPangle)
 
 Fig.2 -Pulse and mixing angle theta. Time is in reduced units
 
@@ -174,7 +181,7 @@ in the truth table below.
 
 ![[fig:STIRAP] -Population transfer with STIRAP. The horizontal-axis is
 time in reduced units
-<span>[</span>-4,4<span>]</span>..](moloclogic/PopSP)
+<span>[</span>-4,4<span>]</span>..](/img/moloclogic/PopSP)
 
 Fig.3 -Population transfer with STIRAP. The horizontal-axis is time in
 reduced units <span>[</span>-4,4<span>]</span>.
@@ -294,7 +301,7 @@ inputs.
 
 ![[fig:FSTIRAP] -Pulse STIRAP and Fractional-STIRAP The horizontal-axis
 is time in reduced units
-<span>[</span>-4,4<span>]</span>..](moloclogic/FSPSPNOT)
+<span>[</span>-4,4<span>]</span>..](/img/moloclogic/FSPSPNOT)
 
 Fig.4 -Pulse STIRAP and Fractional-STIRAP. The horizontal-axis is time
 in reduced units <span>[</span>-4,4<span>]</span>
@@ -384,3 +391,5 @@ perform the proposed logic operations within the time window. That is a
 widow that exists before the effect of the environment destroyes the
 information. It is worth mentioning that there are efforts undergoing to
 control, or at least minimize, the role of noise in the dynamics.
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
