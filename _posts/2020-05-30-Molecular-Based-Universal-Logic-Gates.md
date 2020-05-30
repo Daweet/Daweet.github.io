@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Introduction to Molecular Logic: --part I"
+category: physics
+tags: [computer, molecule logic, optical logic]
+date: 2020-05-30
+---
 This post is a continuation of my blog
 [Introduction-to-Molecular-Logic](https://daweet.github.io/blog/2020/05/19/Introduction-to-Molecular-Logic).
 We discussed there the various physical states upon which we can send a
@@ -375,3 +382,4 @@ control, or at least minimize, the role of noise in the dynamics.
 break\*=1mm,colback=cellbackground, colframe=cellborder]
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
