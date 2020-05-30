@@ -66,7 +66,7 @@ The Logic NOT Gate is the most basic of the logical gates and is often referred 
 
 The input and output will be reading the populations, i.e initial state and final state respectively. The logic assignment is as follows: if the population is in state $|0\rangle$ the corresponding logic is logic value **0**, and if the population is in state $|2\rangle$ the corresponding logic is logic value **1**. Therefore if we initially prepare the system to be on the ground state $|0\rangle$ (i.e. logic value **0**), then applying the STIRAP process takes all the population into state $|2\rangle$  (i.e. logic value **1**), and vice versa as shown in the truth table below.
 
-| Input  <br/>    Intial state| Output <br/>  Final state            |
+| Input  (Intial state)| Output (  Final state)            |
 |-------------|:-------------:|
 | **0**  (state 0)            |     **1**   (state 2)        | 
 | **1**  (state 2)            |     **0**   (state 0)        |
