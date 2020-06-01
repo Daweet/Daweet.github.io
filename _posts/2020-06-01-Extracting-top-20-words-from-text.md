@@ -575,7 +575,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/img/Extracting top ten words from text/output_41_0.png" alt="States" style="width:50%">
+  <img src="/img/Extracting top ten words from text/output_41_0.png" alt="States" style="width:60%">
 </figure>
 
 
@@ -605,7 +605,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/img/Extracting top ten words from text/output_43_0.png" alt="States" style="width:50%">
+  <img src="/img/Extracting top ten words from text/output_43_0.png" alt="States" style="width:60%">
 </figure>
 
 
@@ -671,6 +671,4 @@ make_wordcloud(Words)
 In case you are interested in saving your wordcloud image. Save the image in the img folder:
 ```python 
 wordcloud.to_file("img/your_cloud.png")```
-#In case you are interested in saving your wordcloud image
-# Save the image in the img folder:
-wordcloud.to_file("img/your_cloud.png")
+
