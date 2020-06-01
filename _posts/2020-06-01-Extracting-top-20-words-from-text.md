@@ -568,8 +568,10 @@ plt.tight_layout(pad=0)
 plt.show()
 ```
 
+<figure>
+  <img src="/img/Extracting top ten words from text/output_41_0.png" alt="States" style="width:60%">
+</figure>
 
-![png](/img/Extracting top ten words from text/output_41_0.png)
 
 
 You can see that the column names _Frequency_ and _Term_ dominated the wordcloud, and this is remedied below by adding _Frequency_ and _Term_ into our **stopwords**, so that the code ignores these two words.
@@ -596,8 +598,10 @@ plt.tight_layout(pad=0)
 plt.show()
 ```
 
+<figure>
+  <img src="/img/Extracting top ten words from text/output_43_0.png" alt="States" style="width:60%">
+</figure>
 
-![png](/img/Extracting top ten words from text/output_43_0.png)
 
 
 We use bilinear interpolation, this is to make the displayed image appear more smoothly. More choices can be seen [here](https://matplotlib.org/gallery/images_contours_and_fields/interpolation_methods.html).You can chose gaussian or other options listed in the link.
