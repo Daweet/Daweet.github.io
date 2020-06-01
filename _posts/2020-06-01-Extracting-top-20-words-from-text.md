@@ -1,4 +1,10 @@
-# Extracting top ten words from text
+---
+layout: post
+title: "Extracting top 20 words from text"
+category: Data Science
+tags: [python, word cloud, text analysis]
+date: 2020-06-01
+---
 
 In this post we will use wordcloud() to explore the most frequent words in a text. I suppose you might have come across a figure of cloud filled with bunch of words. You might have also noticed that the words displayed shown in different sizes. The size in turn represent the frequency or the importance of each word. This is called Tag Cloud or WordCloud. 
 
@@ -569,7 +575,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/img/Extracting top ten words from text/output_41_0.png" alt="States" style="width:60%">
+  <img src="/img/Extracting top ten words from text/output_41_0.png" alt="States" style="width:40%">
 </figure>
 
 
@@ -599,7 +605,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/img/Extracting top ten words from text/output_43_0.png" alt="States" style="width:60%">
+  <img src="/img/Extracting top ten words from text/output_43_0.png" alt="States" style="width:40%">
 </figure>
 
 
