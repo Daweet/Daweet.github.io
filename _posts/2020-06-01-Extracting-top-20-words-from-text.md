@@ -211,168 +211,7 @@ eng_stopwords
      'yours',
      'yourself',
      'yourselves',
-     'he',
-     'him',
-     'his',
-     'himself',
-     'she',
-     "she's",
-     'her',
-     'hers',
-     'herself',
-     'it',
-     "it's",
-     'its',
-     'itself',
-     'they',
-     'them',
-     'their',
-     'theirs',
-     'themselves',
-     'what',
-     'which',
-     'who',
-     'whom',
-     'this',
-     'that',
-     "that'll",
-     'these',
-     'those',
-     'am',
-     'is',
-     'are',
-     'was',
-     'were',
-     'be',
-     'been',
-     'being',
-     'have',
-     'has',
-     'had',
-     'having',
-     'do',
-     'does',
-     'did',
-     'doing',
-     'a',
-     'an',
-     'the',
-     'and',
-     'but',
-     'if',
-     'or',
-     'because',
-     'as',
-     'until',
-     'while',
-     'of',
-     'at',
-     'by',
-     'for',
-     'with',
-     'about',
-     'against',
-     'between',
-     'into',
-     'through',
-     'during',
-     'before',
-     'after',
-     'above',
-     'below',
-     'to',
-     'from',
-     'up',
-     'down',
-     'in',
-     'out',
-     'on',
-     'off',
-     'over',
-     'under',
-     'again',
-     'further',
-     'then',
-     'once',
-     'here',
-     'there',
-     'when',
-     'where',
-     'why',
-     'how',
-     'all',
-     'any',
-     'both',
-     'each',
-     'few',
-     'more',
-     'most',
-     'other',
-     'some',
-     'such',
-     'no',
-     'nor',
-     'not',
-     'only',
-     'own',
-     'same',
-     'so',
-     'than',
-     'too',
-     'very',
-     's',
-     't',
-     'can',
-     'will',
-     'just',
-     'don',
-     "don't",
-     'should',
-     "should've",
-     'now',
-     'd',
-     'll',
-     'm',
-     'o',
-     're',
-     've',
-     'y',
-     'ain',
-     'aren',
-     "aren't",
-     'couldn',
-     "couldn't",
-     'didn',
-     "didn't",
-     'doesn',
-     "doesn't",
-     'hadn',
-     "hadn't",
-     'hasn',
-     "hasn't",
-     'haven',
-     "haven't",
-     'isn',
-     "isn't",
-     'ma',
-     'mightn',
-     "mightn't",
-     'mustn',
-     "mustn't",
-     'needn',
-     "needn't",
-     'shan',
-     "shan't",
-     'shouldn',
-     "shouldn't",
-     'wasn',
-     "wasn't",
-     'weren',
-     "weren't",
-     'won',
-     "won't",
-     'wouldn',
-     "wouldn't"]
+     ...]
 
 
 
@@ -533,7 +372,7 @@ fd_top10.plot(20);
 ```
 
 
-![png](output_32_0.png)
+![png](/img/Extracting top ten words from text/output_32_0.png)
 
 
 Let us now convert the list into dataframe, and add header to the columns. This time we arenot going to sort it and see what the visualization looks like.
@@ -648,7 +487,7 @@ df_fdist.plot(kind='hist')
 
 
 
-![png](output_35_1.png)
+![png](/img/Extracting top ten words from text/output_35_1.png)
 
 
 To see a different version of graphing, let us now make our visualization in barchart, and recall the df is not sorted.
@@ -662,7 +501,7 @@ ax=df_fdist_10.plot.bar(x='Word',y='Frequency', color='r',figsize=(15,10), title
 ```
 
 
-![png](output_37_0.png)
+![png](/img/Extracting top ten words from text/output_37_0.png)
 
 
 The barchart is interesting even without sorting, one can tell (with a little effort), by looking at the graph, which word is most frequent and which is least frequent. 
@@ -730,7 +569,7 @@ plt.show()
 ```
 
 
-![png](output_41_0.png)
+![png](/img/Extracting top ten words from text/output_41_0.png)
 
 
 You can see that the column names _Frequency_ and _Term_ dominated the wordcloud, and this is remedied below by adding _Frequency_ and _Term_ into our **stopwords**, so that the code ignores these two words.
@@ -758,7 +597,7 @@ plt.show()
 ```
 
 
-![png](output_43_0.png)
+![png](/img/Extracting top ten words from text/output_43_0.png)
 
 
 We use bilinear interpolation, this is to make the displayed image appear more smoothly. More choices can be seen [here](https://matplotlib.org/gallery/images_contours_and_fields/interpolation_methods.html).You can chose gaussian or other options listed in the link.
@@ -789,7 +628,7 @@ make_wordcloud(Words)
 ```
 
 
-![png](output_46_0.png)
+![png](/img/Extracting top ten words from text/output_46_0.png)
 
 
 
@@ -816,7 +655,7 @@ make_wordcloud(Words)
 ```
 
 
-![png](output_48_0.png)
+![png](/img/Extracting top ten words from text/output_48_0.png)
 
 
 In case you are interested in saving your wordcloud image. Save the image in the img folder:
