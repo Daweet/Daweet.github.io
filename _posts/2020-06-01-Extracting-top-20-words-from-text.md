@@ -575,7 +575,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/img/Extracting top ten words from text/output_41_0.png" alt="States" style="width:40%">
+  <img src="/img/Extracting top ten words from text/output_41_0.png" alt="States" style="width:50%">
 </figure>
 
 
@@ -605,7 +605,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/img/Extracting top ten words from text/output_43_0.png" alt="States" style="width:40%">
+  <img src="/img/Extracting top ten words from text/output_43_0.png" alt="States" style="width:50%">
 </figure>
 
 
