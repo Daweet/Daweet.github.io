@@ -22,8 +22,11 @@ given a horizontal velocity from the top of the Earth as shown in
 Fig. [fig:Earthfall]. What must be the minimum initial speed if the
 person is never to hit the Earth’s surface after it is set in motion?
 
-![[fig:Earthfall] Sliding on sphere and its schematic representation of
-the free-body diagram](/img/slidingsphere/Earthfall)
+
+<figure>
+  <img src="/img/slidingsphere/Earthfall.png" alt="States" style="width:60%">
+  <figcaption>Fig.1 -Falling off Earth.</figcaption>
+</figure>
 
 This is a two dimensional motion, meaning the person is going to fall
 along the vertical axis while also traveling horizontally. Think of the
@@ -106,6 +109,11 @@ before 650 million years ago. The second case is somewhat closer to the
 reality at present, in this situation we consider the effect of
 [friction](https://www.usna.edu/Users/physics/mungan/_files/documents/Publications/TPT3.pdf).
 
+<figure>
+  <img src="/img/slidingsphere/snowballEarth.png" alt="States" style="width:60%">
+  <figcaption>Fig.2 -Snowball Earth.</figcaption>
+</figure>
+
 [sec:level2]Sliding on a Snowball Earth
 ---------------------------------------
 
@@ -120,7 +128,12 @@ schematic representation of free body of the object, we assume it slides
 from the top of the sphere, the diagram shows the forces acting on the
 sliding object after it slides and reaches point C
 
-[fig:slidingsphere]
+
+<figure>
+  <img src="/img/slidingsphere/slidingsphere.png" alt="States" style="width:60%">
+  <figcaption>Fig.3 -Sliding on sphere and its schematic representation of
+the free-body diagram.</figcaption>
+</figure>
 
 We use Newton’s second law which is mathematically expressed as
 $$\vec F_{\mathrm{ext}} = \mathrm{m}\vec a$$. In our case we will take the
