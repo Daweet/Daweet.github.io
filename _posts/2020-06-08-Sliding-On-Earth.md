@@ -5,7 +5,7 @@ category:  Physics
 tags: [gravity, snowball Earth, friction, sphere, centripetal]
 date: 2020-06-08
 ---
-[sec:level1]Sliding on sphere
+Sliding on sphere
 -----------------------------
 
 Falling off the edge of the Earth? so if the Earth is sphere why don’t
@@ -19,7 +19,7 @@ planet. Orbiting Earth is, of course, a diplomatic way of saying that
 the satellites keep falling to the center of the Earth but kept missing
 the surface of Earth. Hypothetically let us assume that a person is
 given a horizontal velocity from the top of the Earth as shown in
-Fig. [fig:Earthfall]. What must be the minimum initial speed if the
+Fig. 1. What must be the minimum initial speed if the
 person is never to hit the Earth’s surface after it is set in motion?
 
 
@@ -35,7 +35,7 @@ mentioning that he time takes the person to travel the height along the
 y-axis and the time it takes to cover the distance in the x-axis is the
 same. Using two-dimensional equations of motion we can precisely
 determine the path the person will follow. The height measured from the
-bottom of the Earth, i.e south pole in Fig. [fig:Earthfall], is the
+bottom of the Earth, i.e south pole in Fig. 1, is the
 diameters $$D=2R$$, and assume the horizontal distance is $$R_x$$. The
 trajectory in the y-axis as described by one of (uniformly accelerated
 rectilinear motion) UARM equations is $$R_y=D-0.5\mathrm{gt}^2$$, which
@@ -66,8 +66,7 @@ person can free herself from being bounded to Earth due to gravity .
 
 Noting that $$D=2R$$ the initial speed takes the form
 $$v_0 = \sqrt{2\mathrm{g}R}$$. Looking at this result closely might ring a
-bell – [escape
-velocity](https://daweet.github.io/blog/2020/05/16/Scraping-NASA-for-Escape-Velocity).
+bell – [escape velocity](https://daweet.github.io/blog/2020/05/16/Scraping-NASA-for-Escape-Velocity).
 
 
 $$\begin{aligned}
@@ -114,7 +113,7 @@ reality at present, in this situation we consider the effect of
   <figcaption>Fig.2 -Snowball Earth.</figcaption>
 </figure>
 
-[sec:level2]Sliding on a Snowball Earth
+Sliding on a Snowball Earth
 ---------------------------------------
 
 The most commonly occurring textbook question is the case of
@@ -123,7 +122,7 @@ the sphere and slides down the surface. We want to know at what height,
 or what should be the minimum angle, at which the object leaves the
 surface. For the case at hand we assume that the coefficient of friction
 between the snowball Earth and the object is zero. Although in reality
-it is small but non zero. We show in Fig. [fig:slidingsphere] the
+it is small but non zero. We show in Fig. 3 the
 schematic representation of free body of the object, we assume it slides
 from the top of the sphere, the diagram shows the forces acting on the
 sliding object after it slides and reaches point C
@@ -139,7 +138,7 @@ We use Newton’s second law which is mathematically expressed as
 $$\vec F_{\mathrm{ext}} = \mathrm{m}\vec a$$. In our case we will take the
 vector sum of all the external forces acting on the object. We
 schematically draw the free-body diagram of these forces acting on the
-sliding object in Fig. [fig:slidingsphere]. It is seen that the
+sliding object in Fig. 3. It is seen that the
 centripetal force $$\frac{\mathrm{m}v^2}{R}$$, that is pulling the system
 inward, is balanced by force components of
 $$\mathrm{mg}\cos\alpha - \mathrm{N}$$. At the point of loss of contact we
@@ -176,7 +175,7 @@ $$\cos^{-1}(2/3)\approx 48.2^0$$. Once again the interesting aspect of
 Eq. ([eq:two]) is that it is independent of mass and acceleration due to
 gravity, this implies that the result is the same in any planet.
 
-[sec:level3]Sliding on Earth’s surface: case with friction
+Sliding on Earth’s surface: case with friction
 ----------------------------------------------------------
 
 The above discussion is not only simplified but also unrealistic.
@@ -248,9 +247,9 @@ Solution of Eq. ([eq:six]), provided below, informs us that the object
 will come to rest, cause of friction, before it reaches the equator. At
 the equator the angle $$\pi/2$$ , and for this to happen the coefficient
 of friction should be infinity. With that much of friction obviously the
-object won’t move. But the general expression is $$\pi/2-1.5/\mu$$.\
+object won’t move. But the general expression is $$\pi/2-1.5/\mu$$.
 
-**Brief glimpse at the solution**\
+**Brief glimpse at the solution**
 
 We follow the footsteps outlined in
 [this](https://www.usna.edu/Users/physics/mungan/_files/documents/Publications/TPT3.pdf)
