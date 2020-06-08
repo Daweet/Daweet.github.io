@@ -67,15 +67,7 @@ person can free herself from being bounded to Earth due to gravity .
 Noting that $$D=2R$$ the initial speed takes the form
 $$v_0 = \sqrt{2\mathrm{g}R}$$. Looking at this result closely might ring a
 bell, i.e. [escape velocity](https://daweet.github.io/blog/2020/05/16/Scraping-NASA-for-Escape-Velocity). 
-Then one can readily show that:
-
-
-$$\begin{aligned}
- v_0 &= \sqrt{2\mathrm{g}R}\\
- v_0 &= \sqrt{2\frac{GM}{R^2}R}\\
- v_0 &=v_{esc}
-\label{eq:one1}.
-\end{aligned}$$
+Then one can readily show that:$$v_0 = \sqrt{2\mathrm{g}R}=\sqrt{2\frac{GM}{R^2}R}=v_{esc}$$.
 
 Recall that $$\mathrm{g}=\frac{GM}{R^2}$$, also note here that
 $$v_0 = \sqrt{\mathrm{g}R}$$ is the orbital speed, which is a factor
