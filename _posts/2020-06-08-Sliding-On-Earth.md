@@ -71,7 +71,7 @@ Then one can readily show that:$$v_0 = \sqrt{2\mathrm{g}R}=\sqrt{2\frac{GM}{R^2}
 
 Recall that $$\mathrm{g}=\frac{GM}{R^2}$$, also note here that
 $$v_0 = \sqrt{\mathrm{g}R}$$ is the orbital speed, which is a factor
-$$(\sqrt{2})^{-1}$$$ less than the escape velocity.
+$$(\sqrt{2})^{-1}$$ less than the escape velocity.
 
 But instead of given an initial speed to start the motion, what if we
 imagined that the person is sliding on the surface of the Earth? what
@@ -140,7 +140,7 @@ given by $$\frac{mv^2}{R^2}$$
 
 $$\begin{aligned}
  \mathrm{mg}\cos\alpha &= \frac{\mathrm{m}v^2}{R}\\
- v^2 &= gR\cos\alpha 
+ v^2 &= gR\cos\alpha ..............................(1)
 \label{eq:one}.
 \end{aligned}$$
 
@@ -158,14 +158,14 @@ radius of the Earth.
 $$\begin{aligned}
  \frac{1}{2} \mathrm{m}v^2 &=  \mathrm{mg}R(1-\cos\alpha), \\
  v^2 &=2\mathrm{g}R(1- \cos\alpha)\\
- \cos\alpha &= \frac{2}{3}
+ \cos\alpha &= \frac{2}{3}..............................(2)
 \label{eq:two}.
 \end{aligned}$$
 
 From which it follows that the height at which the object leaves is
 $$R(1-\cos\alpha)=\frac{R}{3}$$, the corresponding angle is
 $$\cos^{-1}(2/3)\approx 48.2^0$$. Once again the interesting aspect of
-Eq. ([eq:two]) is that it is independent of mass and acceleration due to
+Eq. (2) is that it is independent of mass and acceleration due to
 gravity, this implies that the result is the same in any planet.
 
 Sliding on Earth’s surface: case with friction
@@ -183,7 +183,7 @@ second law again to the tangential component too
 
 $$\begin{aligned}
  \mathrm{mg}\cos\alpha - \mathrm{N} &= \frac{\mathrm{m}v^2}{R}\\
- \mathrm{N} &=  \mathrm{mg}\cos\alpha -\frac{\mathrm{m}v^2}{R}\\
+ \mathrm{N} &=  \mathrm{mg}\cos\alpha -\frac{\mathrm{m}v^2}{R}..............................(3)\\
 \label{eq:three}.
 \end{aligned}$$
 
@@ -191,7 +191,7 @@ In a similar manner, from the tangential component, we get
 
 $$\begin{aligned}
 \mathrm{mg}\sin\alpha - \mu\mathrm{N} &=\mathrm{m}a_t\\
-\frac{dv}{dt} &= \mathrm{g}(\sin\alpha-\mu\cos\alpha)+\mu\frac{v^2}{R}
+\frac{dv}{dt} &= \mathrm{g}(\sin\alpha-\mu\cos\alpha)+\mu\frac{v^2}{R}..............................(4)
 \label{eq:four}.
 \end{aligned}$$
 
@@ -199,7 +199,7 @@ With the introduction of the following chain rule
 
 $$\begin{aligned}
  \frac{dv}{dt} &= \frac{dv}{d\alpha} \frac{d\alpha}{dt} \\
- 2v\frac{dv}{d\alpha} &= \frac{d(v^2)}{d\alpha} 
+ 2v\frac{dv}{d\alpha} &= \frac{d(v^2)}{d\alpha} ..............................(5)
 \label{eq:five}.
 \end{aligned}$$
 
@@ -207,11 +207,11 @@ At this juncture it is worth introducing dimensional analysis.
 Dimensional analysis is the process of converting between units. This is
 a problem-solving strategy that uses the fact that any number or
 expression can be multiplied by one without changing its value. We can
-rewrite Eq. ([eq:five]) as
+rewrite Eq. (5) as
 
 $$\begin{aligned}
   \mathrm{g}(\sin\alpha-\mu\cos\alpha)+\mu\frac{v^2}{R} &= \frac{1}{2R} \frac{d(v^2)}{d\alpha} \\
- \frac{d(V^2)}{d\alpha} -2\mu V^2 = 2(\sin\alpha-\mu\cos\alpha)
+ \frac{d(V^2)}{d\alpha} -2\mu V^2 = 2(\sin\alpha-\mu\cos\alpha)..............................(6)
 \label{eq:six}.
 \end{aligned}$$
 
@@ -236,7 +236,7 @@ scale-up of obtained results to general case. This help us assess the
 relative importance of parameters in our equation. Such analysis also
 help us identify the key parameters in controlling the physical system.
 
-Solution of Eq. ([eq:six]), provided below, informs us that the object
+Solution of Eq. (6), provided below, informs us that the object
 will come to rest, cause of friction, before it reaches the equator. At
 the equator the angle $$\pi/2$$ , and for this to happen the coefficient
 of friction should be infinity. With that much of friction obviously the
@@ -247,22 +247,22 @@ object won’t move. But the general expression is $$\pi/2-1.5/\mu$$.
 We follow the footsteps outlined in
 [this](https://www.usna.edu/Users/physics/mungan/_files/documents/Publications/TPT3.pdf)
 paper. We won’t go in details but briefly outline the steps. To begin
-with equations like Eq. ([eq:six]) can be solved, say using trial form
+with equations like Eq. (6) can be solved, say using trial form
 $$V_1^2 = A\cos\alpha + B\sin\alpha$$. Let us plug in this form into
-Eq. ([eq:six]) and then separately equate sine and cosine terms to
+Eq. (6) and then separately equate sine and cosine terms to
 obtain
 
 $$\begin{aligned}
-  V_1^2 &= \frac{(4\mu^2-2)\cos\alpha-6\mu\sin\alpha}{1+4\mu^2}
+  V_1^2 &= \frac{(4\mu^2-2)\cos\alpha-6\mu\sin\alpha}{1+4\mu^2}..............................(7)
 \label{eq:seven}.
 \end{aligned}$$
 
-On the other hand setting right hand side of Eq. ([eq:six]) to zero
+On the other hand setting right hand side of Eq. (6) to zero
 yields the solution of the form
 
 $$\begin{aligned}
   \frac{d(V^2)}{(V^2)} &= 2\mu \mathrm{d}\alpha\\
-  V^2 &= Ce^{2\mu\alpha}
+  V^2 &= Ce^{2\mu\alpha}..............................(8)
 \label{eq:eight}.
 \end{aligned}$$
 
@@ -270,11 +270,11 @@ To windup, now let us combine the solutions, noting $$V_1^2+V_2^2$$ is
 also the solution, combining all this the final solution takes the form
 
 $$\begin{aligned}
-  V^2 &= \frac{(2-4\mu^2)(e^{2\mu\alpha}-\cos\alpha)-6\mu\sin\alpha}{1+4\mu^2}+V_0^2e^{2\mu\alpha}
+  V^2 &= \frac{(2-4\mu^2)(e^{2\mu\alpha}-\cos\alpha)-6\mu\sin\alpha}{1+4\mu^2}+V_0^2e^{2\mu\alpha}..............................(9)
 \label{eq:nine}.
 \end{aligned}$$
 
-setting $$V=0$$ for $$\alpha=\pi/2$$ Eq. ([eq:nine]) solved for $$V_0$$
+setting $$V=0$$ for $$\alpha=\pi/2$$ Eq. (9) solved for $$V_0$$
 yields.
 
 $$\begin{aligned}
