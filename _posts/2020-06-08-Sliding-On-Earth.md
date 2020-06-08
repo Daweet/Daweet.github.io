@@ -24,7 +24,7 @@ person is never to hit the Earth’s surface after it is set in motion?
 
 
 <figure>
-  <img src="/img/slidingsphere/Earthfall.png" alt="States" style="width:60%">
+  <img src="/img/slidingsphere/Earthfall.png" alt="States" style="width:50%">
   <figcaption>Fig.1 -Falling off Earth.</figcaption>
 </figure>
 
@@ -110,7 +110,7 @@ reality at present, in this situation we consider the effect of
 [friction](https://www.usna.edu/Users/physics/mungan/_files/documents/Publications/TPT3.pdf).
 
 <figure>
-  <img src="/img/slidingsphere/snowballEarth.png" alt="States" style="width:60%">
+  <img src="/img/slidingsphere/snowballEarth.png" alt="States" style="width:50%">
   <figcaption>Fig.2 -Snowball Earth.</figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ sliding object after it slides and reaches point C
 
 
 <figure>
-  <img src="/img/slidingsphere/slidingsphere.png" alt="States" style="width:60%">
+  <img src="/img/slidingsphere/hemisphere.png" alt="States" style="width:60%">
   <figcaption>Fig.3 -Sliding on sphere and its schematic representation of
 the free-body diagram.</figcaption>
 </figure>
