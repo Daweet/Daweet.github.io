@@ -66,7 +66,8 @@ person can free herself from being bounded to Earth due to gravity .
 
 Noting that $$D=2R$$ the initial speed takes the form
 $$v_0 = \sqrt{2\mathrm{g}R}$$. Looking at this result closely might ring a
-bell, i.e. [escape velocity](https://daweet.github.io/blog/2020/05/16/Scraping-NASA-for-Escape-Velocity).
+bell, i.e. [escape velocity](https://daweet.github.io/blog/2020/05/16/Scraping-NASA-for-Escape-Velocity). 
+Then one can readily show that:
 
 
 $$\begin{aligned}
