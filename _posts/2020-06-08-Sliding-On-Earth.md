@@ -73,8 +73,8 @@ Then one can readily show that:
 $$\begin{aligned}
  v_0 &= \sqrt{2\mathrm{g}R}\\
  v_0 &= \sqrt{2\frac{GM}{R^2}R}\\
- v_0 &= v_{esc}
- \label{eq:one1}.
+ v_0 &=v_{esc}
+\label{eq:one1}.
 \end{aligned}$$
 
 Recall that $$\mathrm{g}=\frac{GM}{R^2}$$, also note here that
