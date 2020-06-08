@@ -140,7 +140,7 @@ given by $$\frac{mv^2}{R^2}$$
 
 $$\begin{aligned}
  \mathrm{mg}\cos\alpha &= \frac{\mathrm{m}v^2}{R}\\
- v^2 &= gR\cos\alpha ..............................(1)
+ v^2 &= gR\cos\alpha    ..............................(1)
 \label{eq:one}.
 \end{aligned}$$
 
@@ -158,7 +158,7 @@ radius of the Earth.
 $$\begin{aligned}
  \frac{1}{2} \mathrm{m}v^2 &=  \mathrm{mg}R(1-\cos\alpha), \\
  v^2 &=2\mathrm{g}R(1- \cos\alpha)\\
- \cos\alpha &= \frac{2}{3}..............................(2)
+ \cos\alpha &= \frac{2}{3}.  ..............................(2)
 \label{eq:two}.
 \end{aligned}$$
 
@@ -183,7 +183,7 @@ second law again to the tangential component too
 
 $$\begin{aligned}
  \mathrm{mg}\cos\alpha - \mathrm{N} &= \frac{\mathrm{m}v^2}{R}\\
- \mathrm{N} &=  \mathrm{mg}\cos\alpha -\frac{\mathrm{m}v^2}{R}..............................(3)\\
+ \mathrm{N} &=  \mathrm{mg}\cos\alpha -\frac{\mathrm{m}v^2}{R}.  .............................(3)\\
 \label{eq:three}.
 \end{aligned}$$
 
@@ -191,7 +191,7 @@ In a similar manner, from the tangential component, we get
 
 $$\begin{aligned}
 \mathrm{mg}\sin\alpha - \mu\mathrm{N} &=\mathrm{m}a_t\\
-\frac{dv}{dt} &= \mathrm{g}(\sin\alpha-\mu\cos\alpha)+\mu\frac{v^2}{R}..............................(4)
+\frac{dv}{dt} &= \mathrm{g}(\sin\alpha-\mu\cos\alpha)+\mu\frac{v^2}{R}.  .............................(4)
 \label{eq:four}.
 \end{aligned}$$
 
@@ -199,7 +199,7 @@ With the introduction of the following chain rule
 
 $$\begin{aligned}
  \frac{dv}{dt} &= \frac{dv}{d\alpha} \frac{d\alpha}{dt} \\
- 2v\frac{dv}{d\alpha} &= \frac{d(v^2)}{d\alpha} ..............................(5)
+ 2v\frac{dv}{d\alpha} &= \frac{d(v^2)}{d\alpha}  ..............................(5)
 \label{eq:five}.
 \end{aligned}$$
 
@@ -211,7 +211,7 @@ rewrite Eq. (5) as
 
 $$\begin{aligned}
   \mathrm{g}(\sin\alpha-\mu\cos\alpha)+\mu\frac{v^2}{R} &= \frac{1}{2R} \frac{d(v^2)}{d\alpha} \\
- \frac{d(V^2)}{d\alpha} -2\mu V^2 = 2(\sin\alpha-\mu\cos\alpha)..............................(6)
+ \frac{d(V^2)}{d\alpha} -2\mu V^2 &= 2(\sin\alpha-\mu\cos\alpha).  ..............................(6)
 \label{eq:six}.
 \end{aligned}$$
 
@@ -253,7 +253,7 @@ Eq. (6) and then separately equate sine and cosine terms to
 obtain
 
 $$\begin{aligned}
-  V_1^2 &= \frac{(4\mu^2-2)\cos\alpha-6\mu\sin\alpha}{1+4\mu^2}..............................(7)
+  V_1^2 &= \frac{(4\mu^2-2)\cos\alpha-6\mu\sin\alpha}{1+4\mu^2}. ..............................(7)
 \label{eq:seven}.
 \end{aligned}$$
 
@@ -262,7 +262,7 @@ yields the solution of the form
 
 $$\begin{aligned}
   \frac{d(V^2)}{(V^2)} &= 2\mu \mathrm{d}\alpha\\
-  V^2 &= Ce^{2\mu\alpha}..............................(8)
+  V^2 &= Ce^{2\mu\alpha}. ..............................(8)
 \label{eq:eight}.
 \end{aligned}$$
 
@@ -270,7 +270,7 @@ To windup, now let us combine the solutions, noting $$V_1^2+V_2^2$$ is
 also the solution, combining all this the final solution takes the form
 
 $$\begin{aligned}
-  V^2 &= \frac{(2-4\mu^2)(e^{2\mu\alpha}-\cos\alpha)-6\mu\sin\alpha}{1+4\mu^2}+V_0^2e^{2\mu\alpha}..............................(9)
+  V^2 &= \frac{(2-4\mu^2)(e^{2\mu\alpha}-\cos\alpha)-6\mu\sin\alpha}{1+4\mu^2}+V_0^2e^{2\mu\alpha}  ..............................(9)
 \label{eq:nine}.
 \end{aligned}$$
 
@@ -278,7 +278,7 @@ setting $$V=0$$ for $$\alpha=\pi/2$$ Eq. (9) solved for $$V_0$$
 yields.
 
 $$\begin{aligned}
-  V_0^2 &= \frac{(4\mu^2-2)\sin\delta+6\mu(e^{-\mu\delta}-\cos\delta)}{1+4\mu^2}
+  V_0^2 &= \frac{(4\mu^2-2)\sin\delta+6\mu(e^{-\mu\delta}-\cos\delta)}{1+4\mu^2}. ..............................(10)
 \label{eq:ten}.
 \end{aligned}$$
 
@@ -292,7 +292,7 @@ $$\frac{d\alpha}{d(V^2)}\rightarrow0$$ at $$V=0$$.
 Consequently $$\mu\rightarrow\infty$$, thus
 
 $$\begin{aligned}
-  V_0^2 &= \sin\delta-\frac{3}{2\mu}\cos\delta
+  V_0^2 &= \sin\delta-\frac{3}{2\mu}\cos\delta. ..............................(11)
 \label{eq:eleven}.
 \end{aligned}$$
 
