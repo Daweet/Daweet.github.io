@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Sliding on the Earth's surface"
+category:  Physics
+tags: [gravity, snowball Earth, friction, sphere, centripetal]
+date: 2020-06-08
+---
 [sec:level1]Sliding on sphere
 -----------------------------
 
@@ -16,7 +23,7 @@ Fig. [fig:Earthfall]. What must be the minimum initial speed if the
 person is never to hit the Earth’s surface after it is set in motion?
 
 ![[fig:Earthfall] Sliding on sphere and its schematic representation of
-the free-body diagram](slidingsphere/Earthfall)
+the free-body diagram](/img/slidingsphere/Earthfall)
 
 This is a two dimensional motion, meaning the person is going to fall
 along the vertical axis while also traveling horizontally. Think of the
@@ -284,3 +291,5 @@ $$\begin{aligned}
 \end{aligned}$$
 
 Meaning the object comes to rest at or near $\pi/2-1.5/\mu$
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
