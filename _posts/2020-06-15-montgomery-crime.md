@@ -1,4 +1,11 @@
-# Crimes in Montgomery County
+---
+layout: post
+title: "Crimes in Montgomery County"
+category:  Data Science
+tags: [crime, Montgomerty, pandas analysis, matplot]
+date: 2020-06-15
+---
+
 
 This project aims to explore of crimes in Montgomery Count, Maryland.
 
@@ -57,8 +64,7 @@ mg_crimes = pd.read_csv("Crime.csv")
 mg_crimes.head()
 ```
 
-    /Users/ramlijufar/opt/anaconda3/lib/python3.7/site-packages/IPython/core/interactiveshell.py:3063: DtypeWarning: Columns (1,18) have mixed types.Specify dtype option on import or set low_memory=False.
-      interactivity=interactivity, compiler=compiler, result=result)
+    
 
 
 
@@ -367,7 +373,7 @@ plt.figure(figsize=(12,10))
 
 
 
-![png](output_14_2.png)
+![png](/img/montgomery_crime/output_14_2.png)
 
 
 
@@ -444,7 +450,7 @@ plt.figure(figsize=(12,10))
 
 
 
-![png](output_18_2.png)
+![png](/img/montgomery_crime/output_18_2.png)
 
 
 
@@ -495,7 +501,7 @@ plt.figure(figsize=(12,10))
 
 
 
-![png](output_21_2.png)
+![png](/img/montgomery_crime/output_21_2.png)
 
 
 
@@ -541,7 +547,7 @@ plt.figure(figsize=(12,10))
 
 
 
-![png](output_24_2.png)
+![png](/img/montgomery_crime/output_24_2.png)
 
 
 
@@ -603,7 +609,7 @@ plt.figure(figsize=(12,10))
 
 
 
-![png](output_27_2.png)
+![png](/img/montgomery_crime/output_27_2.png)
 
 
 
@@ -653,7 +659,7 @@ plt.figure(figsize=(12,10))
 
 
 
-![png](output_30_2.png)
+![png](/img/montgomery_crime/output_30_2.png)
 
 
 
@@ -698,7 +704,7 @@ plt.figure(figsize=(12,10))
 
 
 
-![png](output_33_2.png)
+![png](/img/montgomery_crime/output_33_2.png)
 
 
 
@@ -760,7 +766,7 @@ plt.figure(figsize=(12,10))
 
 
 
-![png](output_36_2.png)
+![png](/img/montgomery_crime/output_36_2.png)
 
 
 
@@ -810,7 +816,7 @@ plt.figure(figsize=(12,10))
 
 
 
-![png](output_39_2.png)
+![png](/img/montgomery_crime/output_39_2.png)
 
 
 
@@ -859,7 +865,7 @@ plt.figure(figsize=(20,10))
 
 
 
-![png](output_43_2.png)
+![png](/img/montgomery_crime/output_43_2.png)
 
 
 
@@ -902,7 +908,7 @@ plt.figure(figsize=(12,8))
 
 
 
-![png](output_46_1.png)
+![png](/img/montgomery_crime/output_46_1.png)
 
 
 
@@ -941,7 +947,7 @@ plt.figure(figsize=(12,10))
 
 
 
-![png](output_47_1.png)
+![png](/img/montgomery_crime/output_47_1.png)
 
 
 
@@ -980,7 +986,7 @@ plt.figure(figsize=(12,10))
 
 
 
-![png](output_48_1.png)
+![png](/img/montgomery_crime/output_48_1.png)
 
 
 
@@ -1031,7 +1037,7 @@ plt.figure(figsize=(12,10))
 
 
 
-![png](output_50_2.png)
+![png](/img/montgomery_crime/output_50_2.png)
 
 
 
@@ -1293,7 +1299,7 @@ crimes_district[idx]
 crimes_district.sort_values(by=['Count'], ascending=False)[idx]
 ```
 
-    /Users/ramlijufar/opt/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py:2: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+    
       
 
 
@@ -1609,7 +1615,7 @@ plt.savefig('crime_types.png', dpi=100)
 ```
 
 
-![png](output_62_0.png)
+![png](/img/montgomery_crime/output_62_0.png)
 
 
 
