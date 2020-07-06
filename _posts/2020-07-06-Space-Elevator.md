@@ -27,7 +27,7 @@ along with low density.
 
 ![[fig:Spacetower] [A space elevator is conceived as a cable fixed to
 the equator and reaching into
-space.](https://en.wikipedia.org/wiki/Space_elevator.)](/img/space_elevator/)
+space.](https://en.wikipedia.org/wiki/Space_elevator.)](/img/space_elevator/Space_elevator.png)
 
 How to construct the elevator? the proposal is to build a free standing
 tower of uniform density and constant cross sectional area at Earth’s
