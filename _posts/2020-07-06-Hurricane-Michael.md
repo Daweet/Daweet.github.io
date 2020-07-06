@@ -1,4 +1,10 @@
-# Hurricane Michael
+---
+layout: post
+title: "Hurricane Michael"
+category: Data Science
+tags: [python, hurrican, json, geopandas]
+date: 2020-07-06
+---
 
 >[Hurricane Michael](https://en.wikipedia.org/wiki/Hurricane_Michael) was a very powerful and destructive tropical cyclone that became the first Category 5 hurricane to strike the contiguous United States since Andrew in 1992. In addition, it was the third-most intense Atlantic hurricane to make landfall in the contiguous United States in terms of pressure, behind the 1935 Labor Day hurricane and Hurricane Camille in 1969. It was the first Category 5 hurricane on record to impact the Florida Panhandle, the fourth-strongest landfalling hurricane in the contiguous United States, in terms of wind speed, and was the most intense hurricane on record to strike the United States in the month of October.
 
@@ -751,7 +757,7 @@ map48.plot(cmap='OrRd')
 
 
 
-![png](output_18_1.png)
+![png](/img/2020-07-06-Hurricane-Michael/output_18_1.png)
 
 
 
@@ -768,7 +774,7 @@ geo_hurricane.plot()
 
 
 
-![png](output_19_1.png)
+![png](/img/2020-07-06-Hurricane-Michael/output_19_1.png)
 
 
 
@@ -800,7 +806,7 @@ ax.set_title("Hurrican Michael Trajectory", fontsize=25, fontweight=3)
 
 
 
-![png](output_20_1.png)
+![png](/img/2020-07-06-Hurricane-Michael/output_20_1.png)
 
 
 ### We could zoom-in and see the trajectory 
@@ -835,7 +841,7 @@ ax.set_title("Hurrican Michael Trajectory", fontsize=25, fontweight=3)
 
 
 
-![png](output_22_1.png)
+![png](/img/2020-07-06-Hurricane-Michael/output_22_1.png)
 
 
 
