@@ -42,7 +42,7 @@ centrifugal, and tension forces.
 The forces acting on a small element of the tower are: an upward force
 $$\mathrm{F}_U$$ due to the portion of tower above the element, a downward
 force $$\mathrm{F}_D$$ due to the portion of tower below, a downward force
-$\mathrm{W}$ due to the weight of the element, and a fictitious upward
+$$\mathrm{W}$$ due to the weight of the element, and a fictitious upward
 centrifugal force $$\mathrm{F}_C$$ on the element due to its presence on
 the rotating Earth. The vector sum of these forces must vanish if the
 element is in equilibrium.
