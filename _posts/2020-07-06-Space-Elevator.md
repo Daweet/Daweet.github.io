@@ -5,7 +5,8 @@ category: Data Science, Physics
 tags: [gravity, space elevator, Kepler's law, space tower]
 date: 2020-07-06
 ---
-
+Space elevator or Space tower
+-----------------------------------------
 Leaving Earth’s gravitational pull requires tremendous energy not to
 mention the cost associated with it. At present we use rockets to propel
 object into space. But there is an alternative floating around–space
