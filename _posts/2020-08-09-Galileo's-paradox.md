@@ -5,9 +5,7 @@ category:  Physics
 tags: [gravity,  Galileo's paradox, frcition, Energy conservation]
 date: 2020-08-09
 ---
-\preprint{APS/123-QED}
-\email{dhailu8@montgomerycollege.edu}
-\maketitle
+
 [\[sec:level1\]]{#sec:level1 label="sec:level1"}Isolated system
 ---------------------------------------------------------------
 
@@ -27,7 +25,7 @@ in [@Aguiar:2014aa] in renaming it as Galileo's kinematical paradox.
 To begin with, let us refer to
 Fig. [\[fig:circle\]](#fig:circle){reference-type="ref"
 reference="fig:circle"} where we assume the chords to be frictionless, a
-particle traveling to the bottom of the circle along the diameter $D$,
+particle traveling to the bottom of the circle along the diameter $$D$$,
 and another particle traveling along either of the chords will arrive at
 the same time if released, simultaneously, from rest . Generally
 speaking conservation of total mechanical energy dictates that the sum
