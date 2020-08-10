@@ -6,7 +6,7 @@ tags: [gravity,  Galileo's paradox, frcition, Energy conservation]
 date: 2020-08-09
 ---
 
-[\[sec:level1\]]{#sec:level1 label="sec:level1"}Isolated system
+Isolated system
 ---------------------------------------------------------------
 
 Galileo's paradox, also referred to as Galileo's theorem, asserts that
@@ -44,7 +44,7 @@ $$t_{DB}={\sqrt{\frac{2L}{g\sin\theta}}}=\sqrt{\frac{2D}{g}}$$.
 ![[\[fig:circle\]]{#fig:circle label="fig:circle"} Particles, released
 from rest simultaneously, from points $$A, C, D, E$$ will take same time
 to descend to the lowest point of the circle, i.e $$B$$
-.](Circle){width="50mm"}
+.](/img/GalileosParadox/Circle.png){width="50mm"}
 
 At this point it is worth recalling that Galileo has also pondered about
 the travel from top to bottom of the vertical circle through two chords,
