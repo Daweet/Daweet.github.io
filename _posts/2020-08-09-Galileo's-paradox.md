@@ -23,8 +23,7 @@ paradoxes attributed to Galileo, we follow the suggestion of the authors
 in [Aguiar](https://iopscience.iop.org/article/10.1088/0143-0807/35/6/065024) in renaming it as Galileo's kinematical paradox.
 
 To begin with, let us refer to
-Fig. [\[fig:circle\]](#fig:circle){reference-type="ref"
-reference="fig:circle"} where we assume the chords to be frictionless, a
+the figure shown below where we assume the chords to be frictionless, a
 particle traveling to the bottom of the circle along the diameter $$D$$,
 and another particle traveling along either of the chords will arrive at
 the same time if released, simultaneously, from rest . Generally
