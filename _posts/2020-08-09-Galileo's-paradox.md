@@ -36,7 +36,7 @@ arrive at $$v_B=\sqrt{2gD}$$. Using which the time taken to travel along
 the diameter is shown to be $$t_{AB}=\sqrt{\frac{2D}{g}}$$. Moreover the
 time taken for the particle to travel, from $$A$$ to $$D$$ is readily takes
 the form $$t_{AD}=\sqrt{\frac{2D}{g}}$$. In a similar manner for the
-motion from $D$ to $B$ we note that $$v_B=\sqrt{2gL\sin\theta}$$
+motion from $$D$$ to $$B$$ we note that $$v_B=\sqrt{2gL\sin\theta}$$
 consequently
 $$t_{DB}={\sqrt{\frac{2L}{g\sin\theta}}}=\sqrt{\frac{2D}{g}}$$.
 
